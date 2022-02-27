@@ -1,0 +1,739 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise concerning prayer; containing particularly an apology for the use of the Lords prayer. / By Thomas Hodges, B.D. Rector of the Church of Souldern.</title>
+            <author>Hodges, Thomas, d. 1688.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1656</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 119 KB of XML-encoded text transcribed from 94 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86435</idno>
+            <idno type="STC">Wing H2323</idno>
+            <idno type="STC">Thomason E1712_1</idno>
+            <idno type="STC">ESTC R209609</idno>
+            <idno type="EEBO-CITATION">99868476</idno>
+            <idno type="PROQUEST">99868476</idno>
+            <idno type="VID">170297</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86435)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 170297)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 213:E1712[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise concerning prayer; containing particularly an apology for the use of the Lords prayer. / By Thomas Hodges, B.D. Rector of the Church of Souldern.</title>
+                  <author>Hodges, Thomas, d. 1688.</author>
+               </titleStmt>
+               <extent>[32], 151, [5] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Grismond.,</publisher>
+                  <pubPlace>London, :</pubPlace>
+                  <date>1656.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>With a final leaf of errata and a penultimate leaf headed: Adde this after the title.</note>
+                  <note>Annotation on Thomason copy: "May. 8".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Prayer --  Early works to 1800.</term>
+               <term>Lord's Prayer --  Commentaries --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:170297:1" rendition="simple:additions"/>
+            <p>
+               <hi>A Treatiſe</hi> CONCERNING PRAYER; Containing particularly AN APOLOGY For the uſe of the <hi>LORDS PRAYER.</hi>
+            </p>
+            <p>By THOMAS HODGES, B.D. <hi>Rector of the Church of</hi> Souldern.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>John Griſmond.</hi> 1656.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:170297:2"/>
+            <pb facs="tcp:170297:2" rendition="simple:additions"/>
+            <head>TO The very much Honoured, <hi>John Crew,</hi> 
+               <abbr>Eſq</abbr>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>YOu may, perhaps, wonder, that the enſuing Treatiſe, being, for the maine, the ſubstance of a Ser<g ref="char:EOLhyphen"/>mon lately preached in your eares at <hi>Brackley,</hi> ſhould now be preſented
+<pb facs="tcp:170297:3"/>
+to the eye of the world: And again, that it ſhould come forth after this manner, fronted with your name: And the ra<g ref="char:EOLhyphen"/>ther at both, becauſe you will finde your ſelfe ſur<g ref="char:EOLhyphen"/>priſed without the leaſt fore knowledge, or fore-thought of either. My anſwer for the firſt of theſe ſhall be this, That it containes an <hi>Apology for the uſe of the Lords Prayer,</hi> and conſequently, a juſtification of my own, and many of my deare Brethrens practiſe, con<g ref="char:EOLhyphen"/>formable to the Directory for publique Prayer, com<g ref="char:EOLhyphen"/>piled by the Reverend
+<pb facs="tcp:170297:3"/>
+Fathers of the late Aſ<g ref="char:EOLhyphen"/>ſembly, and authoriZed to be obſerved by Ordinance of Parliament, whereof you were a Member. I would not have it ſaid, <hi>No Leiturgie, no Lords Prayer;</hi> that, ſince the Church of <hi>England</hi> hath laid aſide the former, as unneceſſary, or inconve<g ref="char:EOLhyphen"/>nient; ſhe hath cast out the latter, as unlawfull. And my deſires and en<g ref="char:EOLhyphen"/>deavours are, that as in the <hi>Marian</hi> times, times of Idolatry &amp; ſuperſtition, ſome were martyr'd upon occaſion of their ſaying the Lords Prayer in En<g ref="char:EOLhyphen"/>gliſh;
+<pb facs="tcp:170297:4"/>
+now in theſe dayes of reformation, the Lords Prayer it ſelfe may not be made a Martyr, and they ſuffer in their names and reputations, that dare to uſe or rehearſe it at all as a Prayer.</p>
+            <p>Now as for the preſent addreſse to you, give me leave, Sir, to ſay, for ſay it I muſt, that when I con<g ref="char:EOLhyphen"/>ſider how many yeares you have been an eminent Patron of Preaching and Prayers in theſe parts of the Nation; and withall, that you were an Auditor of the Sermon, that your own houſe is an houſe of
+<pb facs="tcp:170297:4"/>
+prayer, that God hath re<g ref="char:EOLhyphen"/>markably endued and bleſſed you with an under<g ref="char:EOLhyphen"/>ſtanding Head, an honest Heart, a fixed and ſtable Soule, and ſo qualified you to be a fit judge of Truth; I muſt confeſſe, looking about, I doe no where ſee ſuch another excellent <hi>Theophilus,</hi> un<g ref="char:EOLhyphen"/>der whoſe name and pa<g ref="char:EOLhyphen"/>tronage I may with ſo much reaſon and boldneſs commit the following Treatiſe to the Preſſe. I am not without ſome hope, that it may meet with the better entertain<g ref="char:EOLhyphen"/>ment in the world, be<g ref="char:EOLhyphen"/>cauſe
+<pb facs="tcp:170297:5"/>
+it comes forth with the priviledge of your name: ſo that, if the ob<g ref="char:EOLhyphen"/>ſcurity of the Author ſhould hazard to darken the preſent Truth, the luſtre of your name may be a meanes to ſcatter that cloud, and to cleare up that truth to the other<g ref="char:EOLhyphen"/>wiſe blere-ey'd <hi>(i. e.)</hi> pre<g ref="char:EOLhyphen"/>judic'd Reader.</p>
+            <p>And now, Sir, not de<g ref="char:EOLhyphen"/>ſpairing of your pardon for ingaging you thus far let me beg your patience a little farther, <hi>viz.</hi> whilſt by way of ſupplement to the Sermon I premiſe in this Epiſtle a few words
+<pb facs="tcp:170297:5"/>
+concerning this ſix fin<g ref="char:EOLhyphen"/>ger'd Monſter of errour about the Doctrine of Prayer herein handled. Sir, there are three paire of Errours (if I may ſo ſpeak) contrary to this Truth, and each paire conſiſting of two ex<g ref="char:EOLhyphen"/>treames, the one contrary to the other.</p>
+            <p>The firſt pair this, That we ought to do nothing at all but pray; and, that we ought not to pray at all: the firſt an error of ſome in the Primitive times, the latter a fancy of theſe laſt daies.</p>
+            <p>The ſecond paire this,
+<pb facs="tcp:170297:6"/>
+That 'tis abſolutely neceſ<g ref="char:EOLhyphen"/>ſary alwaies when we pray, to uſe a form; and, that 'tis utterly unlawfull at any time when we pray, to pray with, or by a form: the former the opinion of ſome chiefly raiſed by Prelacy, when at its height, the latter origi<g ref="char:EOLhyphen"/>nally the conceit of others caſt down and kept under by the Hierarchy.</p>
+            <p>The third paire this, That the often bare repe<g ref="char:EOLhyphen"/>tition of the Lords Pray<g ref="char:EOLhyphen"/>er merits pardon of ſin, and heaven; and, that the once rehearſing it for a Prayer, is a ſin, and ſo
+<pb facs="tcp:170297:6"/>
+deſerves Hell: the for<g ref="char:EOLhyphen"/>mer the tenet of ſome Papists, and fancy of ignorant Proteſtants; the latter the error of ſome reall enemies both to Po<g ref="char:EOLhyphen"/>pery and Formality.</p>
+            <p>Sir, theſe are the ſeve<g ref="char:EOLhyphen"/>ral errors to the followers and patrons, of which may I have your leave and patronage to ſpeak a few words.</p>
+            <p>To the poore <hi>Euchite</hi> (if any ſuch there be in theſe daies) who will doe nothing elſe but pray, I ſay, and that juſtly, Wherefore is this loſſe? who hath required theſe
+<pb facs="tcp:170297:7"/>
+things at your hands? Go to Paradiſe, and there learn of <hi>Adam,</hi> by Gods own direction and com<g ref="char:EOLhyphen"/>mand, to keep and dreſſe the Garden, as well as to ſanctifie or keep holy the Sabbath day. As for thoſe who are guilty of the ſecond error, <hi>viz.</hi> who will not pray at all: I have preached to them the following Sermon, &amp; here ſhall tell them, I pray for them, becauſe they pray not for them<g ref="char:EOLhyphen"/>ſelves; and, that I think it more neceſſary to write <hi>The Lord have mercy</hi> on their doores, in
+<pb facs="tcp:170297:7"/>
+whoſe houſes Prayer is not, than where the Plague is.</p>
+            <p>Thoſe of the third rank, who will allow of no pray<g ref="char:EOLhyphen"/>er, except with, or by a form; ſuppoſing they will not decline the judge<g ref="char:EOLhyphen"/>ment and practiſe of the Ancients, without weigh<g ref="char:EOLhyphen"/>ty reaſons, I referre to <note n="*" place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Juſt. Mart. Apol. 2.</note> 
+               <hi>Juſtin Martyr</hi> and <hi>Ter<g ref="char:EOLhyphen"/>tullian,</hi> and if their teſti<g ref="char:EOLhyphen"/>mony will not amount to this, that it was their judgement,<note place="margin">Sine mo<g ref="char:EOLhyphen"/>nitore quia de pectore oramus. <hi>Tert. Apol. cap.</hi> 30.</note> and the pra<g ref="char:EOLhyphen"/>ctiſe of Christians in their time, to pray accor<g ref="char:EOLhyphen"/>ding to their ability, without any Booke or
+<pb facs="tcp:170297:8"/>
+Prompter, and ſo without any ſet form, yet let them ſhew us how to construe their ſayings, ſo as to re<g ref="char:EOLhyphen"/>concile them to their opi<g ref="char:EOLhyphen"/>nion. And again, I beg of them to heare King <hi>James,</hi> who, in his ad<g ref="char:EOLhyphen"/>vice to Prince <hi>Henry,</hi> counſels him to pray as his heart moves him, <hi>pro re natâ,</hi> and not bee as the ignorant ones, who pray nothing but out of a book: I would deſire men of this perſwaſion to con<g ref="char:EOLhyphen"/>ſider, that they make the way to the throne of grace onely in a beaten path, or road, and narrower than
+<pb facs="tcp:170297:8"/>
+God and the holy Scri<g ref="char:EOLhyphen"/>ptures have made it; and that, probably, this their inordinate Zeale for ſet Formes, and their intem<g ref="char:EOLhyphen"/>perate heat against con<g ref="char:EOLunhyphen"/>ceived Prayers, gave the firſt occaſion of throwing out all Liturgies out of the Church. When they who are allowed crutches or staves to help their weakneſſe, make uſe of them to fight withall, and to break the heads of thoſe who offer to goe without them, then 'tis thought no injustice or imprudence to take them away. When once the Liturgie, that
+<pb facs="tcp:170297:9"/>
+               <hi>Sheepherds ſtaff,</hi> would pretend to be like that <hi>rod of Aaron,</hi> when it devoured the rods of the Egyptian Magitians, that is, would become a <hi>Ser<g ref="char:EOLhyphen"/>pent,</hi> and devour all o<g ref="char:EOLhyphen"/>ther prayers in the Church, as if they had not been the product of the ho<g ref="char:EOLhyphen"/>ly Spirit, but a deluſion, then it was thought high time to remove it.</p>
+            <p>Thoſe in the fourth place, who decry all forms as utterly unlawfull, are reaſoned withall in the following Diſcourſe. It ſhall ſuffice here to in<g ref="char:EOLhyphen"/>treat them to goe to the
+<pb facs="tcp:170297:9"/>
+pattern in the Mount, I mean the <hi>Lords Prayer</hi> there delivered, <hi>Matth. 6.9.</hi> which I take to be a warrant and pattern for formes of Prayer, even in Goſpel-times. I aſſert not here the neceſsity or expediency of formes for all; but this I ſay, that, meerely to uſe a forme, is not ſinfull; and further, that ſome formes may be a meet help for ſome men; that Prayer by a forme is better than no Prayer at all; and that, if I could preach Prayer, though by a Form, into all thoſe houſes and cloſets in <hi>En<g ref="char:EOLhyphen"/>gland</hi>
+               <pb facs="tcp:170297:10"/>
+where now there is no Prayer at all, I think I ſhould, through Grace, doe God and his Church an acceptable ſer<g ref="char:EOLhyphen"/>vice.</p>
+            <p>The fifth ſort, namely thoſe who look upon the meere rehearſall of the words of the Lords Pray<g ref="char:EOLhyphen"/>er, though without a right understanding, and ſuit<g ref="char:EOLhyphen"/>able affections, to bee a meritorious Act; theſe are the men for whoſe ſake the way of truth, wherein good men goe in this matter, is evil ſpoken of. It is the Idolizing the very words and ſil<g ref="char:EOLhyphen"/>lables
+<pb facs="tcp:170297:10"/>
+of this prayer, with<g ref="char:EOLhyphen"/>out regard to the ſenſe of it, or uſing it with Faith and Fervency, which hath occaſioned others, who have a zeale, but not according to knowledge in this thing, to deal with this golden Prayer, much like as <hi>Hezekiah</hi> did with the Brazen Serpent. Let me not become their enemy, and I will tell them the truth; the Lords Prayer, in the mouth of an ignorant and profane perſon, is like a Pearle in a Swine's ſnout. As it is not every one that ſaith, <hi>Lord, Lord,</hi>
+               <pb facs="tcp:170297:11"/>
+(that prayers with ſome enlargement and earneſt<g ref="char:EOLhyphen"/>neſſe, ſo ſome interpret that ſaying, <hi>Mat. 7.21.</hi>) ſo 'tis not every one that prayes <hi>Our Father, &amp;c.</hi> ſhall enter into the King<g ref="char:EOLhyphen"/>dome of Heaven. Let us not therefore make that prayer guilty of vain re<g ref="char:EOLhyphen"/>petition, which was or<g ref="char:EOLhyphen"/>dained for a remedy thereunto; cauſe no man to ſay this Proverb unto it, Phyſitian heale thy ſelfe.</p>
+            <p>Lastly, to them that ſcruple the Lawfulneſſe of uſing this prayer; I ſay there is no ſcripture,
+<pb facs="tcp:170297:11"/>
+nor ſufficient reaſon a<g ref="char:EOLhyphen"/>gainſt it, and there is both Scripture and reaſon for it. What plainer words needed our Lord to have uſed, upon ſuppoſi<g ref="char:EOLhyphen"/>tion he would have us to uſe this Prayer? Surely if he had meant we ſhould not have uſed it, he would never have expreſsed himſelfe in ſuch words as theſe, <hi>when ye Pray, ſay, &amp;c.</hi> Had our Lord meant it only as a patterne, &amp; in no caſe to be uſed as a Prayer, he would probably have bid them (when they asked to be taught to pray as <hi>John</hi> taught
+<pb facs="tcp:170297:12"/>
+his Diſciples) pray, that Gods Name might be ſan<g ref="char:EOLhyphen"/>ctified, his Will done, <hi>&amp;c.</hi> and not have framed it into the forme of a Pray<g ref="char:EOLhyphen"/>er, and ſo have put it in their mouths with a <hi>when ye pray, ſay, &amp;c.</hi> Cer<g ref="char:EOLhyphen"/>tainly there is no text ſo plaine against, as this is for the lawfulneſſe of u<g ref="char:EOLhyphen"/>ſing it. As for the Pray<g ref="char:EOLhyphen"/>er it ſelf, I will confident<g ref="char:EOLhyphen"/>ly ſay of this Prayer, what was too boldly, in my judgement, ſaid of the Common-prayer, <hi>viz.</hi> that it is impſsible for Men and Angels to mend it: yea, though I will
+<pb facs="tcp:170297:12"/>
+not ſay, Our Lord Chriſt could not; yet I dare ſay, hee never did give a more perfect form than this.</p>
+            <p>It is in charity to be ho<g ref="char:EOLhyphen"/>ped, that, through ſome miſtake, Mr. <hi>Roſſe</hi> hath done the adverſe opinion too much honour, in fa<g ref="char:EOLhyphen"/>thering it upon Indepen<g ref="char:EOLhyphen"/>dents; though I conceive he hath done thoſe godly and learned men no ho<g ref="char:EOLhyphen"/>nour at all thereby, eſpeci<g ref="char:EOLhyphen"/>ally if it be true which Mr <hi>Perkins</hi> (who taught <hi>England</hi> to preach) ſaith,<note place="margin">Mr. <hi>Perk.</hi> of the Lo: Prayer.</note> 
+               <hi>viz.</hi> That it is an opinion full of ignorance and er<g ref="char:EOLhyphen"/>ror.</p>
+            <p>
+               <pb facs="tcp:170297:13"/>I do therefore here hum<g ref="char:EOLhyphen"/>bly beſeech all the reſt of the Apologiſts to do as one of them, <hi>viz. Mr. Jer. Burroughs,</hi> whoſe name is pretious ſtill amongst the Saints, was wont to do, namely, ſometimes to uſe the Lords Prayer in the Congregation.</p>
+            <p>For though there are publiſhed reaſons of diſſenting brethren a<g ref="char:EOLhyphen"/>gainſt Presbytery, yet I never either ſaw or heard any of their Reaſons a<g ref="char:EOLhyphen"/>gainſt the uſe of the Lords Prayer, recom<g ref="char:EOLhyphen"/>mended by the Aſſembly to be uſed in the Prayers of the Church.</p>
+            <p>
+               <pb facs="tcp:170297:13"/>Oh that Chriſtians un<g ref="char:EOLhyphen"/>der all the ſeveral Forms of Church government would agree together on earth, with one heart, and one mouth, to lift up this one prayer to our Father in Heaven, in all the Churches of CHRIST throughout all Ages. And though it hath beene thought expedient to lay aſide the Liturgy, com<g ref="char:EOLhyphen"/>piled, though by good men, yet but by men; yet let it in no wiſe bee thought convenient to diſuſe the Lords Prayer, compoſed and recommen<g ref="char:EOLhyphen"/>ded by him who was both
+<pb facs="tcp:170297:14"/>
+God and Man. Though all Liturgies, though all Set Formes compoſed and impoſed by men, ſhould fall, yet let this ſtand. And truly it would well become, in theſe conteſts, all Formes of mens com<g ref="char:EOLhyphen"/>poſing, not to engage the Lords Prayer in the bat<g ref="char:EOLhyphen"/>tell with them, but rather, as King <hi>David</hi>'s loyall Subjects ſaid to him, <hi>2 Sam. 18.3.</hi> Thou ſhalt not go forth: for, if we flee away they will not care for us; neither if half of us die or periſh, will they care for us: but now thou art worth
+<pb facs="tcp:170297:14"/>
+ten thouſand of us, there<g ref="char:EOLhyphen"/>fore it is better that thou ſuccour us out of the city, it is better that thou be a warrant to us, and a ſtrong city, and that of Refuge to us, if we be put to flight. As for other Prayers, they may have done vertuouſly, but this excelleth them: all o<g ref="char:EOLhyphen"/>thers may poſsibly de<g ref="char:EOLhyphen"/>ſerve their thouſands of praiſes, this its ten thou<g ref="char:EOLhyphen"/>ſand. Let not the Streams contend with the Foun<g ref="char:EOLhyphen"/>tain, the Diall with the Sun, the ordinary Mea<g ref="char:EOLhyphen"/>ſures with the royall Standard, nor our Pray<g ref="char:EOLhyphen"/>ers,
+<pb facs="tcp:170297:15"/>
+whether compoſed or conceived with the Lords Prayer. But if any ſhould ſay, Daies ſhould ſpeak, and multitude of Yeares ſhould teach wiſdome, ask the Fathers and they ſhall tell us: My Anſwer is, I joyn iſſue with them. I appeale to the judgement of <hi>Tertullian, Cyprian, Hierome, Auſtin, Gre<g ref="char:EOLhyphen"/>gory</hi>
+               <note n="*" place="margin">
+                  <p>In le<g ref="char:EOLhyphen"/>gitima oratione, cùm dicimus ad patrem, ne nos inducas in tentationem (quae au<g ref="char:EOLhyphen"/>tem major tentatio quam perſecu<g ref="char:EOLhyphen"/>tio) abieo illam profitemur accidere, à quo veniam ejus deprecamur. <hi>Tertul. de fuga, &amp;c.</hi>
+                  </p>
+                  <p>Amica &amp; familiaris oratio eſt, Deum de ſuo rogare, ad aures ejus aſcendere, Chriſti orationem agno<g ref="char:EOLhyphen"/>ſcat, Pater Filii ſui verba, cum pre<g ref="char:EOLhyphen"/>cem facimus. <hi>Cypr de Orat. Dom.</hi>
+                  </p>
+                  <p>Sic docuit Apoſtolos ſuos, ut quo<g ref="char:EOLhyphen"/>tidie, in corporis illius ſacrificio cre<g ref="char:EOLhyphen"/>dentes, audeant loqui, Pater Noſter qui es in coelis, <hi>&amp;c.</hi>
+                  </p>
+                  <p>Statim in prima corporis Chriſti communione dicunt, Dimitte nobis debita noſtra. <hi>Hierom. adverſus Pelag.</hi>
+                  </p>
+                  <p>Oratio vobis quotidie dicenda eſt, cùm baptizati fueritis; in Eccleſia enim ad Altare Dei quotidie dicitur iſta oratio Dominica, &amp; audiunt iſtam fideles: non ergo timemus, ne minùs illam teneatis diligenter, quia ſiquis veſtrùm non poterit tenere perfecté, audiendo quotidie tenebit. <hi>Aug. Hom.</hi> 42.</p>
+                  <p>Orationem Dominicam idcirco mox poſt precem dicimus, quòd nos Apoſtolorum fuit, ut ad ipſam ſo<g ref="char:EOLhyphen"/>lummodò orationem oblationis ho<g ref="char:EOLhyphen"/>ſtiam conſecrarent. <hi>Greg. Epiſt. lib.</hi> 7. <hi>Epiſt.</hi> 63.</p>
+               </note>.</p>
+            <pb facs="tcp:170297:15"/>
+            <p>
+               <pb facs="tcp:170297:16"/>And to ſay the truth, I have not read, or heard, that ever any of the Fa<g ref="char:EOLhyphen"/>thers or Councils, judged it either unlawfull, or in<g ref="char:EOLhyphen"/>expedient, to uſe the Lords Prayer for a Pray<g ref="char:EOLhyphen"/>er.</p>
+            <p>And now Sir, having by this time, I ſuppoſe, ſufficiently tried, if not ti<g ref="char:EOLhyphen"/>red, your patience, in de<g ref="char:EOLhyphen"/>taining you ſo long a ſpe<g ref="char:EOLhyphen"/>ctator of our conteſts with this half doZen of errors; I ſhall adde no more, but
+<pb facs="tcp:170297:16"/>
+(deſiring that this Epiſtle may remain as a publique acknowledgement, or ex<g ref="char:EOLhyphen"/>preſse of gratitude, for thoſe Reſpects and Fa<g ref="char:EOLhyphen"/>vours wherewith you have been pleaſed to ob<g ref="char:EOLhyphen"/>lige our <hi>Brackley</hi>-ſocie<g ref="char:EOLhyphen"/>ty, I ſhall onely bow my knees to the Father of our Lord Jeſus for you, that you may be the bleſ<g ref="char:EOLhyphen"/>ſed of the Lord, and your off-ſpring with you; and, particularly, ſith you are one who can ſay <hi>Amen</hi> to the <hi>Prayer of Moſes</hi> for <hi>Levi, Deut. 33.11.</hi> and to the <hi>Prayer of Chriſt, Mat. 6.9. &amp;c.</hi> and <hi>Luke
+<pb facs="tcp:170297:17"/>
+11.1, 2,</hi> &amp;c. that you may beare a part in the <hi>Song of Moſes, and of the Lamb.</hi> Sir, this is, and ſhall be, the heartie prayer of</p>
+            <closer>
+               <signed>
+                  <hi>Your very hum<g ref="char:EOLhyphen"/>ble Servant in the Lord,</hi> Tho: Hodges.</signed>
+               <dateline>
+                  <date>
+                     <hi>Decem. 1. 1655.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <pb n="1" facs="tcp:170297:17"/>
+            <head>A TREATISE OF PRAYER; And particularly <hi>An Apology for the uſe of the Lords Prayer.</hi>
+            </head>
+            <epigraph>
+               <q>
+                  <bibl>On <hi>LUKE 11.1, 2.</hi>
+                  </bibl>
+                  <p>And it came to paſſe, that, as he was praying in a certain place, when he ceaſed, one of his Diſciples ſaid unto him, Lord teach us to pray, as <hi>John</hi> alſo taught his Diſciples.</p>
+                  <p>And he ſaid unto him, when ye pray, ſay, <hi>Our Father, &amp;c.</hi>
+                  </p>
+               </q>
+            </epigraph>
+            <p>GOd having but one Son, made him a Miniſter of the Cir<g ref="char:EOLhyphen"/>cumciſion, that is,
+<pb n="2" facs="tcp:170297:18"/>
+he ordained him a preacher of the truth to his own peo<g ref="char:EOLhyphen"/>ple the Jewes. This man was not meerely as other Prieſts taken out from a<g ref="char:EOLhyphen"/>mongſt men; but that in all things he might have the preheminence, he was ta<g ref="char:EOLhyphen"/>ken from amidſt the per<g ref="char:EOLhyphen"/>ſons of the ever bleſſed Trinity, to deale in things pertaining unto God. And now being made an Officer in the Church, it behoved him to wait on his office, and to fulfill his Miniſtry which he had received of the Lord. And accordingly he did; he gave himſelfe continually to Prayer, and to the Miniſtry of the word; and ſo he became an example and pattern to
+<pb n="3" facs="tcp:170297:18"/>
+his Apoſtles which they did follow, <hi>Acts</hi> 6.4. and to all Miniſters that come after, that they ſhould tread in his ſteps. And, upon occaſion of his frequent going to pray<g ref="char:EOLhyphen"/>er, at a certain time, when he had been about that ho<g ref="char:EOLhyphen"/>ly performance, one of his Diſciples (whether one of the Apoſtles, for they were all called Diſciples, or one of the ſeventy Diſciples, or ſome other of his followers, I determine not; but one of them) deſires of him to teach them to pray as <hi>John Baptiſt</hi> had taught his Di<g ref="char:EOLhyphen"/>ſciples. It may ſeem either that this Diſciple was not preſent at our Saviours Sermon on the Mount; wherein, as you have it,
+<pb n="4" facs="tcp:170297:19"/>
+               <hi>Mat.</hi> 6.9. he taught his Diſciples, and in them all Chriſtians, to pray after this manner, <hi>Our Father, &amp;c.</hi> or elſe, that he did not apprehend our Lords mea<g ref="char:EOLhyphen"/>ning at that his firſt delive<g ref="char:EOLhyphen"/>ry of this form of Prayer, but took it for a model, or pattern of Prayer onely. And as (probably) the chief Maſters, or Rabbies a<g ref="char:EOLhyphen"/>mongſt the Phariſees, had framed certain formes of prayer for their Diſciples, and <hi>John</hi> the Baptiſt had given his a forme of pray<g ref="char:EOLhyphen"/>er, (ſuitable, likely to their preſent condition, wherein it may be one great requeſt, was that the <hi>Meſſiah,</hi> whom <hi>John</hi> preached, and they expected, and longed
+<pb n="5" facs="tcp:170297:19"/>
+for, might ſuddenly come into his Temple:) So this Diſciple prayeth Chriſt to preſcribe his Schollars and followers a form alſo; both as a badge and cognizance of being his Diſciples, and as a help and furtherance to them in their devotions. Poſſibly the Liturgy of the Scribes and Phariſees might now be leavened with evil, as well as their Sermons: Obſervable it is, that our Saviour ſometime adviſeth on this wiſe, ſaying, the <hi>Scribes and Phariſees ſit in Moſes chaire, whatſoever they ſay unto you, that ob<g ref="char:EOLhyphen"/>ſerve and do:</hi> but we never finde that he counſelled to pray their prayers. And again, it may be that the
+<pb n="6" facs="tcp:170297:20"/>
+form which <hi>John Baptiſt,</hi> the Lord Chriſt his Harbin<g ref="char:EOLhyphen"/>ger, taught his Diſciples, to prepare the way for Chriſt, was not ſufficiently accom<g ref="char:EOLhyphen"/>modated, or fitted to the condition of them, who believed him already come, followed him, profeſſed Faith in him, and were rea<g ref="char:EOLhyphen"/>dy to, or actually did preach him. Upon theſe, or ſuch like conſiderations, this Diſciple might make this motion to our Saviour, ſaying, <hi>Lord teach us to pray as</hi> John <hi>alſo taught his Di<g ref="char:EOLhyphen"/>ſciples,</hi> and occaſion our Lord more plainly and ful<g ref="char:EOLhyphen"/>ly to expreſſe himſelf con<g ref="char:EOLhyphen"/>cerning the uſe of that form of prayer formerly delivered, &amp; now not to ſay,
+<pb n="7" facs="tcp:170297:20"/>
+as before, <hi>After this man<g ref="char:EOLhyphen"/>ner pray yee; but when ye pray, ſay, Our Father, &amp;c.</hi> It is the ſaying of learned Mr. <hi>Mede,</hi> As the dream was doubled unto <hi>Pharaoh,</hi> becauſe the thing was eſtabliſhed by God; ſo the Lords Prayer was twice delivered, that we might not ſcruple the uſing, but know it for a truth, that Jeſus Chriſt did recommend it to his Church to be uſed as a forme of prayer, and not a patterne of prayer onely.</p>
+            <p>Let this ſerve for the oc<g ref="char:EOLhyphen"/>caſion, and ſcope of the words. There are three ob<g ref="char:EOLhyphen"/>ſervations which I ſhall raiſe and proſecute in part, in my treating on this text:
+<list>
+                  <pb n="8" facs="tcp:170297:21"/>
+                  <item>1. Gods Children, or People, or right Chriſtians, are a praying generati<g ref="char:EOLhyphen"/>on.</item>
+                  <item>2. It is lawfull to uſe a Form of Prayer.</item>
+                  <item>3. It is lawful to uſe this Form, the Lords Prayer, for a Prayer.</item>
+               </list>
+            </p>
+            <p n="1">I. Of the firſt, Gods Chil<g ref="char:EOLhyphen"/>dren, or right Chriſtians, are a praying generation. That <hi>John</hi> the Baptiſt (the <hi>Elijah</hi> who was for to come) was alſo noted for prayer, I gather hence, be<g ref="char:EOLhyphen"/>cauſe 'tis ſaid, that hee taught his Diſciples to pray: And, that they, <hi>viz.</hi> his Schollers, or Diſciples, learnt this leſſon, and pra<g ref="char:EOLhyphen"/>ctiſed this duty, ſeems im<g ref="char:EOLhyphen"/>plied in the ſame phraſe.
+<pb n="9" facs="tcp:170297:21"/>
+And, as for Chriſt himſelf, the onely begotten Son of God, and his Diſciples the adopted children of God; that they were men of many prayers, thoſe who much frequented, and high<g ref="char:EOLhyphen"/>ly valued this Ordinance, the very words of the text import, or at leaſt inſinu<g ref="char:EOLhyphen"/>ate.</p>
+            <p>From theſe premiſes I in<g ref="char:EOLhyphen"/>ferre my firſt concluſion, and ground my following diſcourſe thereupon.</p>
+            <p>I ſhall endeavour to ſhew what Prayer is; That all men ought to pray; That the children of Men, as well as the children of God; That very Heathens, with<g ref="char:EOLhyphen"/>out the pale of the Church, and profane, or ſcandalous
+<pb n="10" facs="tcp:170297:22"/>
+Perſons, Formaliſts, and Hypocrits within, do ſome<g ref="char:EOLhyphen"/>times pray; That Gods own People, his dear Chil<g ref="char:EOLhyphen"/>dren, or right Chriſtians, are moſt frequent and moſt excellent at prayer; They take the moſt pains about it, and the greateſt pleaſure in it.</p>
+            <p>Prayer is a making of our requeſts known unto God. It is an offering up of the firſt born of our ſoules, <hi>i. e.</hi> of our deſires unto God.</p>
+            <p>To pray well, there is nothing required (ſaith one) but to deſire well.<note place="margin">
+                  <hi>Senhault.</hi> ex. Aug.</note>
+            </p>
+            <p>Nature and Scripture both oblige and prompt men to pray. Prayer is a duty which all men owe to God; a duty whereby we
+<pb n="11" facs="tcp:170297:22"/>
+acknowledge our continu<g ref="char:EOLhyphen"/>all dependance upon him; his fulneſſe, ſelf-ſufficiency, and all-ſufficiency; and our own emptineſſe, and neceſſity. He is our Sove<g ref="char:EOLhyphen"/>raign Lord, and we are his Subjects; and this homage and tribute we owe him; we hold all of him, and this quit-rent, this pepper-corn, we are bound to pay him.</p>
+            <p>It is not Gods knowing all things, the very thoughts and deſires of our hearts long before, ſo that hee needs not that any man ſhould tell him in prayer; it is not the irrevocableneſs of Gods decrees, that our prayers cannot change them, or him; It is not mans inability naturally, to
+<pb n="12" facs="tcp:170297:23"/>
+ask aright; It is neither Gods perfections, nor Mans imperfections, that do ab<g ref="char:EOLhyphen"/>ſolve men from this duty. Again, no mans piety can exempt him, nor can any mans impiety excuſe him from it. And laſtly, there is none ſo rich, but he muſt; and none ſo poore, but he may, offer unto God this morning and evening, this daily ſacrifice. God, the Lord and maſter of this great houſe, the world, doth not allow the Iſraelite to take the bread upon his table, nor the <hi>Canaanite</hi> to gather the crums under the table without firſt asking his leave, or giving him thanks.</p>
+            <p>Prayer is the voyce of
+<pb n="13" facs="tcp:170297:23"/>
+nature, 'tis her ſtrugling and ſtriving to be rid of her burden. Meere naturall men, yea very Heathens, when they are in diſtreſſe, will call upon their gods, though very ſtocks and ſtones.</p>
+            <p>If a man cannot pray, let him goe to Sea, and in a ſtorme <hi>Ionahs</hi> heathen Marriners will teach him to call upon his God. Afflicti<g ref="char:EOLhyphen"/>ons, neceſſities will drive men generally unto Prayer, for relief, and ſuccour. And yet becauſe, many call upon falſe gods, or upon the true God in a falſe manner, either not praying con<g ref="char:EOLhyphen"/>ſtantly, or not in faith and with good Affections, or asking things not conveni<g ref="char:EOLhyphen"/>ent,
+<pb n="14" facs="tcp:170297:24"/>
+inſtead of an egge a Scorpion, or, if good things, yet to an evill end, <hi>viz.</hi> That what they get by Prayer they may conſume on their luſts. Therefore the Holy Ghoſt, in the Scri<g ref="char:EOLhyphen"/>pture, brands ſo many for men that <hi>call not upon God.</hi> And the very truth is, were it not to ſtop the mouth of naturall conſcience, or to get or keep a name of be<g ref="char:EOLhyphen"/>ing religious in the world, or that hereby they thinke to merit Gods favour or countenance, ſo far as to be bleſſed in this life, or to hire or bribe God, the Judge of all the world, not to doe right, <hi>i. e.</hi> not to puniſh them in the world to come; I ſay, that
+<pb n="15" facs="tcp:170297:24"/>
+were it not for ſome one, or more of theſe cauſes, I be<g ref="char:EOLhyphen"/>lieve that God, who is a God hearing prayers, would have none to heare, either from meere Heathens, or unrege<g ref="char:EOLhyphen"/>rate Chriſtians; his doors would be empty of theſe clients, theſe Suitors would not come at him. They goe not to Prayer with ſo much chearfulnes, as ſome go to priſon, as others to execution: they come unwillingly, they are <hi>de<g ref="char:EOLhyphen"/>tained</hi> before the Lord like <hi>Doeg,</hi> with much weari<g ref="char:EOLhyphen"/>neſſe, like a ſick Stomach at a full table, they are glad when the duty is done, and they again at liberty, like an Apprentice, that is
+<pb n="16" facs="tcp:170297:25"/>
+freed from his maſter. Theſe things therefore conſide<g ref="char:EOLhyphen"/>red, it is no wonder that God delights not in their Prayers,<note place="margin">Quo modo te audiri à Deo poſtu<g ref="char:EOLhyphen"/>las, ùn tu ipſe non au<g ref="char:EOLhyphen"/>dias? <hi>Cyp. de Orat. Dom.</hi>
+               </note> who delight not at all in the duty themſelves. How ſhould God take pleaſure in thoſe Prayers, which thoſe that make them ſcarce heare or mind themſelves, and are glad, when they have rid their hands of them? and which they would never beſtow a look after, but meerly for eaſe and advantage.</p>
+            <p>But is this the manner of the people of God? of the Diſciples of Chriſt? Are the children of God as blame-worthy, as faulty in this matter as the children of men? If I ſhould ſay this,
+<pb n="17" facs="tcp:170297:25"/>
+I ſhould verily be guilty of raſh, and falſe judgment thus to accuſe and condemn wrongfully the generati<g ref="char:EOLhyphen"/>on of the Righteous: for they are men and women of another temper, frame, manner of ſpirit and car<g ref="char:EOLhyphen"/>riage in their addreſſes un<g ref="char:EOLhyphen"/>to the moſt high God in Prayer.</p>
+            <p>Theſe are they, that ac<g ref="char:EOLhyphen"/>count Prayer their eſpeciall priviledge, that make it their daily exerciſe, that looke on their incomes by Prayer, as their beſt reve<g ref="char:EOLhyphen"/>nues. Theſe go to Prayer, as a Favourite to Court, to ſee and wait on his Sove<g ref="char:EOLhyphen"/>raigne, and whole face he ſees as an Angell of God. Theſe go to Prayer with
+<pb n="18" facs="tcp:170297:26"/>
+delight, and have more So<g ref="char:EOLhyphen"/>lid joy therein, than the voluptuous man hath in all his ſports and pleaſures. Theſe go to this duty as an hungry man to a meale, to a feaſt, expecting to have their Soules ſatisfied as with marrow and fatneſſe. Unre<g ref="char:EOLhyphen"/>generate men, at beſt, go to it but as to the taking of Phyſick, as to a potion, which they would never take but for meer neceſſity, but for their healths ſake. Laſtly, theſe go to Prayer, as a trades-man into his ſhop, to meet with a good cu<g ref="char:EOLhyphen"/>ſtomer; as a merchant to the Exchange, to get a bar<g ref="char:EOLhyphen"/>gaine; as the merchant in the Parable goes to the field wherein was the
+<pb n="19" facs="tcp:170297:26"/>
+pearle of price. To make all this appeare, let me in<g ref="char:EOLhyphen"/>ſtance in two or three, both of the Old and of the New Teſtament: for both they that went before Chriſt, and they that followed af<g ref="char:EOLhyphen"/>ter him, cryed <hi>Hoſanna,</hi> or <hi>ſave us we pray thee;</hi> I mean, they were much taken, yea much taken up, with this holy performance.</p>
+            <p>Ile inſtance firſt in <hi>David,</hi> a man after Gods own heart; he made Prayer his Cordiall in all his troubles and afflictions, <hi>Pſal.</hi> 42.7, 8, 9, 10. &amp; <hi>Pſal.</hi> 55.16, 17. his Caſtle to retire unto from the face of his ene<g ref="char:EOLhyphen"/>mies. <hi>Pſal.</hi> 109.4. <hi>They are my adverſaries, but I give my ſelf unto prayer;</hi> as
+<pb n="20" facs="tcp:170297:27"/>
+               <hi>Luther</hi> uſed to ſay, of later daies, when he was ill dealt withall by men: <hi>Well, Ile tell God of it.</hi> When they that ſate in the gate, <hi>i. e.</hi> Judges and Rulers, ſpake againſt <hi>David,</hi> and when the drunkards made ſongs of him, what doth he doe, but fall to his prayers. <hi>As for me</hi> (ſaith he, Pſal. 69.12, 13.) <hi>my prayer is unto thee, O Lord.</hi> I dare ſay, he eſteemed it more honour to lye proſtrate at the Throne of Gods grace, praying, than they could do to ſit on the bench on the throne of iniquity, to cenſure, to judge him. And his meditations, <hi>i. e.</hi> his prayers, I am confident, were ſweeter to him than
+<pb n="21" facs="tcp:170297:27"/>
+the drunkards cups and ſongs, were, or could be to them. The value he ſet on prayer ye may gueſſe from hence, that he layes up a prayer, he leaves a prayer for his ſon <hi>Solomon,</hi> as well as any other treaſure what<g ref="char:EOLhyphen"/>ſoever, <hi>Pſal.</hi> 72. and in that Pſalm, or Prayer, he layes a Foundation and Prophe<g ref="char:EOLhyphen"/>cy of the greatneſſe of <hi>So<g ref="char:EOLhyphen"/>lomons</hi> Kingdome, ſaying, <hi>The Kings of</hi> Tarſhiſh <hi>and of the</hi> Iſles <hi>ſhall bring pre<g ref="char:EOLhyphen"/>ſents, the Kings of</hi> Seba <hi>and</hi> Sheba <hi>ſhall offer gifts.</hi> If you aske, what gifts? He addes, <hi>to him ſhall one give of the gold of</hi> Sheba. And accor<g ref="char:EOLhyphen"/>ding to his word, the Queen of <hi>Sheba</hi> gave King <hi>Solomon</hi> Gold, even to an
+<pb n="22" facs="tcp:170297:28"/>
+hundred and twenty ta<g ref="char:EOLhyphen"/>lents, and of Spices very great ſtore, and pretious Stones; and yet I have not told you the halfe of <hi>Solo<g ref="char:EOLhyphen"/>mons</hi> treaſury, he had an Exchequer of prayers far beyond all gold and preti<g ref="char:EOLhyphen"/>ous ſtones: For when his dying Father, as ſome thinke, by the Spirit of Pro<g ref="char:EOLhyphen"/>phecy, had bleſſed him with that wealth; he addes, that which excelleth all the gold and riches of both the Indies, <hi>Prayer alſo ſhall be made for him continually,</hi> Pſal. 72.10, 11, 15. Again, this Royall Prophet, when he ſpeakes unto God in prayer, hath yet that holy boldneſſe as to liken his prayers to Incenſe, to Sa<g ref="char:EOLhyphen"/>crifice,
+<pb n="23" facs="tcp:170297:28"/>
+to the evening Sa<g ref="char:EOLhyphen"/>crifice, which becauſe it did moſt punctually typifie Je<g ref="char:EOLhyphen"/>ſus Chriſt, who was offered up about the time of the Evening Sacrifice, might in that reſpect have the preheminence. <hi>Pſal.</hi> 141.2. <hi>Let my prayer be ſet forth be<g ref="char:EOLhyphen"/>fore thee as incenſe, and the lifting up my hands as the evening ſacrifice.</hi> In all this <hi>David</hi> ſinned not, nor ſpake to God fooliſhly or unadviſedly with his lips; for prayer is as a ſweet in<g ref="char:EOLhyphen"/>cenſe before God, in the language of the Old and New Teſtament. <hi>Malach.</hi> 1.11. <hi>Revelat.</hi> 8.3, 4.</p>
+            <p>And, according to the price and value this holy Prophet ſet on the duty,
+<pb n="24" facs="tcp:170297:29"/>
+was his practice of it: ſometimes he prayed thrice a day, ſometimes ſeven times a day; perhaps thrice a day was his ordinary daily courſe, and ſeaven times was his practice upon Sabbaths, and Feſtivals. A<g ref="char:EOLhyphen"/>gaine, ſometimes he prayes at midnight, and riſes to the duty; ſometimes early in the morning, his prayers prevent the dawning of the day. Underſtand this of continued prayer: As for Ejaculations, ſudden ſhort dartings, and breathings of his ſoule after God, this kind of prayer was his ele<g ref="char:EOLhyphen"/>ment, the aire his ſoule de<g ref="char:EOLhyphen"/>lighted to breath in, the pulſe of his ſoule beat this way, and thus his heart
+<pb n="25" facs="tcp:170297:29"/>
+panted toward God conti<g ref="char:EOLhyphen"/>nually, not onely ſeven times a day, but ſeventy times ſeven times. When his body was at reſt in his bed, his ſoule was fully im<g ref="char:EOLhyphen"/>ployed in following hard after God. He makes his bed, as it were, a <hi>Bethel,</hi> a houſe of prayer; and, when the time of feaſting is over, or ceaſeth, even in the night watches, when he is on his bed, then hath he meat to eat which the world knowes not, then he doth not, as ſome, dreame of a feaſt, but hath his ſoul ſatisfied wi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h holy medita<g ref="char:EOLhyphen"/>tions, as with marrow and fatneſſe.</p>
+            <p>A ſecond eminent inſtance we have in <hi>Daniel,</hi> who, as
+<pb n="26" facs="tcp:170297:30"/>
+before, ſo after the decree was ſigned by <hi>Darius</hi> (that whoſoever ſhould ask any petition of any God or Man, ſave of the King, for thirty daies ſpace, ſhould be caſt into the den of Li<g ref="char:EOLhyphen"/>ons) went into his houſe, and, his windowes being open in his chamber to<g ref="char:EOLhyphen"/>wards <hi>Jeruſalem,</hi> he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime, ſaith the text, <hi>Dan.</hi> 6.10. It was not the den of Lions could ſcare him from his wonted devo<g ref="char:EOLhyphen"/>tions and prayers three times a day. There were four circumſtances which (conſidering that his ene<g ref="char:EOLhyphen"/>mies were many, and migh<g ref="char:EOLhyphen"/>ty,
+<pb n="27" facs="tcp:170297:30"/>
+and ſuch as did watch for his halting) did notably commend his zeale.</p>
+            <p n="1">1. He prayed with the window of his chamber open towards <hi>Jeruſalem,</hi> though he was at <hi>Babylon;</hi> a ceremony then uſed, be<g ref="char:EOLhyphen"/>cauſe of the Temple there, a type of Chriſt, and be<g ref="char:EOLhyphen"/>cauſe of <hi>Solomons</hi> prayer, in caſe they were in captivity, 1 <hi>Kings</hi> 8.48. If they pray toward their land, the city which thou haſt choſen, and the houſe which I have built for thy name, then heare thou their prayer, <hi>&amp;c.</hi>
+            </p>
+            <p n="2">2. He prayed kneeling; he did not omit his wonted humble geſture, though a circumſtance or cermony,
+<pb n="28" facs="tcp:170297:31"/>
+no not when his life was in danger, and this poſture might poſſibly help to be<g ref="char:EOLhyphen"/>tray him. Could he have ſatisfied himſelf to pray in his bed for theſe thirty daies (as thouſands amongſt us do all the daies of their lives, if they pray at all) ſaying, <hi>'Tis good ſleeping in a whole skin;</hi> Why ſhould I ſtir out of bed to pray? there is a Lion in the way, it may indanger my life; I ſay, could he have done thus, probably the ſparing his knee might have help'd to have ſaved his head.</p>
+            <p n="3">3. 'Tis not unlikely, that his prayer was vocall, that he uſed his voice in this prayer; he would not be ſilent, though he knew he
+<pb n="29" facs="tcp:170297:31"/>
+ſhould be an offender, a traytour, for his words; that what his Enemies heard him ſay in his private chamber, in a corner, they would publiſh on the houſe top, and puniſh in the Lions den.</p>
+            <p n="4">4. It may ſeem, that he continued his prayers, till his enemies came and found him, <hi>Dan.</hi> 6.11. and yet, poſſibly, might have ſome intimation, or notice of their coming, before they apprehended him. He would not forbeare continued prayer for a moneth, nor abate the ceremony of kneeling, nor the circum<g ref="char:EOLhyphen"/>ſtance of his voice, nor change his times of prayer all into the night time, nor
+<pb n="30" facs="tcp:170297:32"/>
+cut them off by halfs in the day, no though his life lay at ſtake. The Lions roared, yet <hi>Daniel</hi> did not feare.</p>
+            <p>And as for the New-Teſtament Saints, the Di<g ref="char:EOLhyphen"/>ſciples, and followers of Chriſt; as their Lord and Maſter was a man of many prayers, ſo were they of his houſhold and retinue. It was the cognizance and character of <hi>converts</hi> in the Primitive times, <hi>They con<g ref="char:EOLhyphen"/>tinued in the Apoſtles do<g ref="char:EOLhyphen"/>ctrine and fellowſhip, and breaking of bread, and pray<g ref="char:EOLhyphen"/>ers,</hi> Act. 2.41, 42. yea, 'tis brought as a convincing argument of the reality of <hi>Saul</hi>'s coverſion to <hi>Paul,</hi> fro<g ref="char:cmbAbbrStroke">̄</g> a <hi>perſecutor</hi> to be a <hi>pro<g ref="char:EOLhyphen"/>feſſor,</hi> a choſen veſſel unto
+<pb n="31" facs="tcp:170297:32"/>
+Chriſt, <hi>Behold he prayeth.</hi> We are not to imagine, but that, whilſt he was a Phari<g ref="char:EOLhyphen"/>ſee, he prayed often: But now he prayed more ear<g ref="char:EOLhyphen"/>neſtly, more from the heart, and, it may be, with ſtrong cries and teares, to him that was able to enlighten his darkneſſe; I mean, to cure his blindneſſe, both of ſoul and body, and to ſave him both from the ſhadow of death, and from utter dark<g ref="char:EOLhyphen"/>neſſe. Now he prayes to the Lord Jeſus Chriſt, whom formerly he perſecu<g ref="char:EOLhyphen"/>ted, <hi>I am Jeſus whom thou perſecuteſt.</hi> Now he prayed after another manner, than ever he did before.</p>
+            <p>Nor ought it to ſeem a wonder, that Gods chil<g ref="char:EOLhyphen"/>dren,
+<pb n="32" facs="tcp:170297:33"/>
+Chriſtians of all men, ſhould be moſt zealous and excellent at prayer, if we conſider, 1. The example of their Lord and Maſter Jeſus Chriſt.</p>
+            <p n="1">1. Hee was often at prayer; witneſſe his uſu<g ref="char:EOLhyphen"/>all Oratory, Mount <hi>Oli<g ref="char:EOLhyphen"/>vet.</hi> He was zealous at it; witneſſe his transfiguration on Mount <hi>Tabor,</hi> whilſt he was praying, and a ſecond kind of transfiguration of his in the Garden, when being in an Agony he pray<g ref="char:EOLhyphen"/>ed more earneſtly, and ſweat great drops of blood trickling downe to the ground, <hi>Luke</hi> 22.44.</p>
+            <p n="2">2. If we conſider the many precepts, and exhortations, to this duty. <hi>Pray without
+<pb n="33" facs="tcp:170297:33"/>
+ceaſing,</hi> 1 Theſ. 5.17. <hi>Pray all manner of prayer, Eph.</hi> 6.18. and <hi>Luke</hi> 18.1. Jeſus Chriſt ſpake a parable, <hi>to the end men ſhould pray al<g ref="char:EOLhyphen"/>waies, and not faint.</hi>
+            </p>
+            <p n="3">3. The encouraging pro<g ref="char:EOLhyphen"/>miſes they have to this per<g ref="char:EOLhyphen"/>formance. <hi>Ask, and ye ſhall have; ſeeke, and ye ſhall finde; knock, and it ſhall be opened,</hi> Mat. 7.7. Luke 11.9. Mark 11.2, 4. and againe, <hi>Verily, verily, I ſay unto you, whatſoever ye ſhall aske the Father in my name, he will give it you,</hi> John 16.23, 24.</p>
+            <p n="4">4. If we conſider, how great things Prayer hath done for them, wee our ſelves, might Chriſtians ſay, have heard with our eares,
+<pb n="34" facs="tcp:170297:34"/>
+and our Fathers have told us, what wonders it hath done in our daies, and in the times before us: How it hath, like a General, com<g ref="char:EOLhyphen"/>manded the Hoſt of Hea<g ref="char:EOLhyphen"/>ven, the Sun, Moone, and Starres, either to ſtand ſtill, or go back, and to fight in their courſes againſt Gods enemies. They know, that this is it, which, like the key of <hi>David,</hi> opens, and no man ſhuts, and ſhuts, and no man opens. This is the key of Heaven, the key of hearts, the key of the barren Womb, and of the Grave; it opens and ſhuts all theſe. I had almoſt ſaid, it is the key of Hell too, of the bot<g ref="char:EOLhyphen"/>tomleſſe pit; for there it locks up the Devils, that
+<pb n="35" facs="tcp:170297:34"/>
+they cannot tempt us: and this is it which ſome Chri<g ref="char:EOLhyphen"/>ſtians have uſed (<hi>Luther</hi> for one to unlock Hell, yea, the Devils Cabinet, and to re<g ref="char:EOLhyphen"/>cover thence thoſe bonds, whereby ſome have in wri<g ref="char:EOLhyphen"/>ting, under hand &amp; ſeale, gi<g ref="char:EOLhyphen"/>ven their ſouls to the Devil. Prayer, which is our fami<g ref="char:EOLhyphen"/>ar converſe with God, makes a Chriſtians ſoule ſhine. The ſoul of a praying Saint is ſometimes, whilſt he is praying, in a ſort transfigured, as Chriſts bo<g ref="char:EOLhyphen"/>dy was on Mount <hi>Tabor.</hi> When <hi>Moſes</hi> faſted and prayed forty daies, and for<g ref="char:EOLhyphen"/>ty nights, his face was not at all disfigured, he did not appeare unto men to faſt, but, on the contrary, his
+<pb n="36" facs="tcp:170297:35"/>
+face did ſhine ſo gloriouſly, that the Iſraelites were not able to behold him, but through a vaile, <hi>Exod.</hi> 34.33, 34, 35. Obſerve, that at the former forty daies be<g ref="char:EOLhyphen"/>ing in the Mount with God, whilſt God did, as it were, preach to <hi>Moſes</hi> in the de<g ref="char:EOLhyphen"/>livery of the Law, we read of no ſuch glory abiding on <hi>Moſes</hi> face, when he came downe; but now, when <hi>Moſes</hi> went up the ſecond time, und continued inter<g ref="char:EOLhyphen"/>ceding for <hi>Iſrael</hi> forty days and forty nights, at his co<g ref="char:EOLhyphen"/>ming down the skin of his face did ſhine; ſo that <hi>Aaron</hi> and <hi>Iſrael</hi> were afraid to come nigh him, <hi>Exod.</hi> 34.28, 29, 30. The name of a praying Chriſtian may be
+<pb n="37" facs="tcp:170297:35"/>
+like the name of the Angel, which appeared to <hi>Manoah</hi> and his wife, <hi>Judges</hi> 13.18. it may be <hi>Peli,</hi> wonderfull; for how oft have many of them done wonderouſly, as that Angel did? for ma<g ref="char:EOLhyphen"/>ny of them, at their depar<g ref="char:EOLhyphen"/>ture hence, have breathed out their ſoules in fervent prayer. When the flame of their fervent prayers went up to Heaven, from the altar of their hearts; their ſoules, like the Angel of the Lord, aſcended in the flame of the Altar. Yea, as <hi>Elijah</hi> went up once in a fiery Chariot, ſo do Chri<g ref="char:EOLhyphen"/>ſtians, in a ſort, daily, ſome<g ref="char:EOLhyphen"/>times ſeven times a day, and ſometimes ſeventy times ſeven times. This chariot of
+<pb n="38" facs="tcp:170297:36"/>
+Prayer hath foure wheeles; Prayers, Supplications, In<g ref="char:EOLhyphen"/>terceſſions, Thanksgiving: And, let me ſay, the ſpirit of a living Chriſtian is in theſe wheeles; and, when theſe are lift up from the earth, towards heaven, then are the living chriſtians, in their ſoules, lifted up alſo.</p>
+            <p>What ſhall I ſay more of the praiſe of Prayer? for time would faile me to tell of <hi>Abraham, Iſaac,</hi> and <hi>Jacob;</hi> of <hi>Moſes, Aaron,</hi> and <hi>Sampſon;</hi> of <hi>Samuel</hi> alſo, and of the Prophets, who, through prayer, ſub<g ref="char:EOLhyphen"/>dued enemies, wrought righteouſneſſe, obtained promiſes, ſtopped the mouths of Lions, quenched the violence of fire, eſcaped
+<pb n="39" facs="tcp:170297:36"/>
+the edge of the ſword, out of weakneſſe were made ſtrong, waxed valiant in fight, turned to flight the armies of the Aliens, wo<g ref="char:EOLhyphen"/>men received their dead al<g ref="char:EOLhyphen"/>ſo to life again, <hi>&amp;c.</hi>
+            </p>
+            <p>And now, Brethren, to the end we may have our converſation ſuch as be<g ref="char:EOLhyphen"/>comes the Goſpel of <hi>Chriſt,</hi> to the end we may live peaceable and quiet lives in all godlineſſe and honeſty, here on earth, and ſee the face of God, and enjoy his preſence for ever in heaven; I exhort, that Prayers, Sup<g ref="char:EOLhyphen"/>plications, Interceſſions, and giving of Thanks, be made by all men; for this is the will of God our Saviour, who would have all men to
+<pb n="40" facs="tcp:170297:37"/>
+pray, and to come to the experimental knowledge of this truth, that Gods chil<g ref="char:EOLhyphen"/>dren, or people, are a pray<g ref="char:EOLhyphen"/>ing Generation, or that right Chriſtians are pray<g ref="char:EOLhyphen"/>ing Chriſtians.</p>
+            <p>Pray, therefore, my belo<g ref="char:EOLhyphen"/>ved brethren, all manner of prayer: pray ſet, or continu<g ref="char:EOLhyphen"/>ed prayer, &amp; pray continual<g ref="char:EOLhyphen"/>ly, ſending up every where holy Ejaculations towards heaven. Pray when thou art alone, in thy cloſet, or ſecret chamber: pray with thy family, wife, children, ſer<g ref="char:EOLhyphen"/>vants: pray in the publick Aſſemblies, in the great Congregation.</p>
+            <p>And now, as the Apoſtle <hi>Paul</hi> to his <hi>Theſſalonians,</hi> chap. 4.9, 10. <hi>As touching
+<pb n="41" facs="tcp:170297:37"/>
+brotherly love, ye need not that I write unto you, for ye your ſelves are taught of God to love one another. And in<g ref="char:EOLhyphen"/>deed ye doe it,</hi>— but we be<g ref="char:EOLhyphen"/>ſeech you, brethren, that ye increaſe more and more: So my hearty deſire is that I could ſay, concerning all kinde of prayer, in ſecret, in the family, in the con<g ref="char:EOLhyphen"/>gregation; concerning pray<g ref="char:EOLhyphen"/>er, <hi>ye have no need that I preach unto you, for ye your ſelves are taught of God thus to pray; And indeed you doe it, but we beſeech you bre<g ref="char:EOLhyphen"/>thren, that ye increaſe more and more.</hi>
+            </p>
+            <p n="1">1. Let your cloſet, or ſecret chamber, be perfumed with the ſweet incenſe of Prayer, morning and evening. Let
+<pb n="42" facs="tcp:170297:38"/>
+God have his morning &amp; e<g ref="char:EOLhyphen"/>vening ſacrifice, at leaſt. This is but reaſonable ſervice.</p>
+            <p>Say not, thou art ſo ſpi<g ref="char:EOLhyphen"/>rituall already, that thou art above this, and all other Ordinances. <hi>Be not decei<g ref="char:EOLhyphen"/>ved, God is not mocked;</hi> except thou couldſt be, ex<g ref="char:EOLhyphen"/>cept thou waſt better than <hi>Emanuel</hi> (God-man) thou oughteſt to pray; for ſo did our Lord Jeſus Chriſt. If thou doſt altogether re<g ref="char:EOLhyphen"/>ſtrain prayer before God, thou art ſo far from being of the higheſt forme of Chriſtians, that thou haſt, in this, denied the Faith, and art worſe than an in<g ref="char:EOLhyphen"/>fidell: thou haſt denied the faith, and art worſe than the Devil, for the Devils
+<pb n="43" facs="tcp:170297:38"/>
+prayed unto Chriſt, that he would not command them to go out into the deep, and that he would ſuffer them to enter into the herd of Swine. <hi>Luke</hi> 8.31.32.</p>
+            <p>Say not, I am an unrege<g ref="char:EOLhyphen"/>nerate perſon, a ſinner, and God heareth not ſinners; and, if you ſhould pray, your prayer would be tur<g ref="char:EOLhyphen"/>ned into ſin; and there<g ref="char:EOLhyphen"/>fore 'tis to no purpoſe to pray; if the ſacrifice of the wicked be an abomination to the Lord, then his Pray<g ref="char:EOLhyphen"/>er or Incenſe is not like to prove a ſweet ſavour in Gods noſtrills, or an odour of a ſweet ſmell unto him. I grant, that it is true, that God doth not heare grie<g ref="char:EOLhyphen"/>vous ſinners, impoſtors,
+<pb n="44" facs="tcp:170297:39"/>
+and Sabbath-breakers, ſo as at their prayer to cure one that was born blinde. But yet I ſay, God that heares the cry of Nature, even of the young Ravens, when they cry for food, he doth ſometimes heare the prayers of meere natural men. King <hi>Jehoahaz</hi> was one that did evil in the ſight of the Lord; a wicked man he was, and yet he be<g ref="char:EOLhyphen"/>ſought the Lord,<note place="margin">2 <hi>Kings</hi> 13.4.</note> and he hearkened unto him.</p>
+            <p>Again, I ſay, unto unre<g ref="char:EOLhyphen"/>generate perſons, it is their duty to pray, 'tis their ſin if they doe not. It is not their ſin ſimply to pray, but they ſin indeed, whether they eat, or drink, or ſleep, or plough, or pray, becauſe
+<pb n="45" facs="tcp:170297:39"/>
+they do not theſe things to the glory of God; but they ſin more, who will nei<g ref="char:EOLhyphen"/>ther lift up their hands to heaven, nor put their hand to the plough, nor exerciſe themſelves in ſome honeſt calling. Let thy plough as ſoone ſtand ſtill, becauſe the ploughing of the wic<g ref="char:EOLhyphen"/>ked is ſinne, as thy pray<g ref="char:EOLhyphen"/>ers ceaſe before the Lord therefore. But God forbid, that thou ſhouldſt ſinne a<g ref="char:EOLhyphen"/>gainſt God, in ceaſing to pray for thy own ſoul, &amp; for others alſo, although thou beeſt unregenerate. I dare confidently ſay, that no man is ever the farther off from finding grace, becauſe he doth in a way of prayer diligently ſeek for it. <hi>Prov.</hi>
+               <pb n="46" facs="tcp:170297:40"/>
+2.1, 2, 3, 4, 5, 6. <hi>Ezek.</hi> 36.25, 26, 27, 37. <hi>Mat.</hi> 7.7. If once God bow thy heart to pray in good earneſt, there's hopes he will incline his eare to heare. Only, ſee thou henceforth regard not iniquity in thy heart, if thou expecteſt that God ſhould regard thy Prayer.</p>
+            <p n="2">2. Pray with your families; thus dedicating your houſes daily unto the Lord. The Jews, at their firſt entrance, or taking poſſeſſion of a new houſe to dwell in it, did uſe to pray, feaſt, and ſing Pſalmes; hence the title of the thirtieth Pſalme, <hi>A Pſalm and Song at the dedi<g ref="char:EOLhyphen"/>cation of the houſe of David.</hi> Chriſtians, let your houſes be dedicated houſes, houſes
+<pb n="47" facs="tcp:170297:40"/>
+of prayer, and ſinging of Pſalmes to all that dwell therein Let God have his morning and evening Sa<g ref="char:EOLhyphen"/>crifice every day. Chriſti<g ref="char:EOLhyphen"/>ans either have, or ought to have, a Church in their houſes; your houſes ſhould be Seminaries, and Nurſe<g ref="char:EOLhyphen"/>ries for the Congregation; where God ſhould have a Church, let not the Devill have a Chappell. Inſtead of praying, reading, and ſinging of Pſalmes, let there not be heard curſing, roa<g ref="char:EOLhyphen"/>ring, and revelling: doe not open your doores to be a randevouz for Devils, a habitation for <hi>Ziim</hi> and <hi>Iim,</hi> and every unclean ſpi<g ref="char:EOLhyphen"/>rit. We heare little now of Fairies, and Hobgoblins,
+<pb n="48" facs="tcp:170297:41"/>
+of Spirits walking in hou<g ref="char:EOLhyphen"/>ſes; I hope one reaſon is, becauſe the worſhip of God is ſet up in many hou<g ref="char:EOLhyphen"/>ſes. Therefore it is that Dagon falls down, becauſe the Ark of God, the Ordi<g ref="char:EOLhyphen"/>nances of God, are brought into the houſe. Let all that come under your roofe, ſay, <hi>Surely the feare of God is in this place, this is none other than the houſe of God, and this is the gate of heaven.</hi>
+            </p>
+            <p>God ordained in the be<g ref="char:EOLhyphen"/>ginning, that the firſt-born of every family ſhould be the King, or Governour, and the Prieſt to offer ſa<g ref="char:EOLhyphen"/>crifice. God provided a Magiſtrate, and a Miniſter in every houſe. I perſwade my ſelfe, that one great
+<pb n="49" facs="tcp:170297:41"/>
+cauſe, why many men are no more maſters in, or of their own houſes, or that they finde ſo much trouble and d<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſturbance in their govern<g ref="char:EOLhyphen"/>ment, from wife, children, ſervants, is this, becauſe they ſeperate thoſe things which God hath joyned together; they will be Kings to over<g ref="char:EOLhyphen"/>rule their Families, but they will not be Prieſts unto God, to offer unto him the ſacrifice and incenſe of Praiſe and Prayer, with, and for their families; they would be Maſters, but they refuſe to be Miniſters in their own houſes.</p>
+            <p>Where there is moſt praying to, and bleſſing of God together in families; I dare warrant there's the
+<pb n="50" facs="tcp:170297:42"/>
+leaſt brawling and curſing of one another. Thoſe that ſerve God together moſt, will leaſt ſeek to domineere one over another. But no mervail you cannot agree all the day, in and about your own work, when you did not agree in Gods work together in the mor<g ref="char:EOLhyphen"/>ning.</p>
+            <p>I finde in the Scriptures, that God required one great act of religious wor<g ref="char:EOLhyphen"/>ſhip to be performed in private houſes, namely, the Paſsover. And they ſay, that the Jewes, in their publick mournings, did uſe to ſhut themſelves up in their hou<g ref="char:EOLhyphen"/>ſes with their families, and there, upon ſome extraor<g ref="char:EOLhyphen"/>dinary occaſion, they might
+<pb n="51" facs="tcp:170297:42"/>
+faſt, pray, and mourn. See <hi>Zech.</hi> 12.12, 13, 14. Now if they held it lawfull to worſhip God in ſuch great and extraordinary acts of devotion, in their private houſes, and that too, the Temple ſtanding: Then let not the calling the family together, to pray, read, and ſing Pſalmes, now in Go<g ref="char:EOLhyphen"/>ſpel times, be cenſured for an unlawfull Aſſembly, nor any man be in danger to be called in queſtion for ſuch daily exerciſes, there being ſufficient cauſe whereby we may give account of ſuch meetings, in every place, every day.</p>
+            <p>Yea, let me exhort you, not onely to make Prayer your ordinary, your every<g ref="char:EOLhyphen"/>day-work;
+<pb n="52" facs="tcp:170297:43"/>
+but that, when ever the Bridegroom is ta<g ref="char:EOLhyphen"/>ken from you, when Chriſt with-drawes his preſence, or hides his face from your family, that then you that are the children of the Bride-chamber would faſt and pray in thoſe dayes. I dare boldly ſay, that one ſpeciall way and meanes to keep hunger, or faſting through neceſſity, or to keep mourning, or eating your bread with ſorrow, and mingling your drinke with teares, out of your houſes; and to celebrate a continuall feaſt, to have peace of conſcience, and the joy of the holy Ghoſt amongſt you in your dwel<g ref="char:EOLhyphen"/>lings, is, to bring in prayer,
+<pb n="53" facs="tcp:170297:43"/>
+ordinary and extraordina<g ref="char:EOLhyphen"/>ry, under your roofe: As God bleſſed <hi>Potiphar</hi>'s houſe for <hi>Joſeph</hi>'s ſake, and the houſe of <hi>Obed-Ed<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m</hi> for the Ark's ſake, ſo, be aſſured, he will bleſſe you and your houſes, if you would open your doores to entertain Family-prayer throughout all your dwel<g ref="char:EOLhyphen"/>lings; that imprecation, or curſe of the Prophet, ſhould never come nigh your hou<g ref="char:EOLhyphen"/>ſes, <hi>Poure out thine indigna<g ref="char:EOLhyphen"/>tion upon the Heathen, and upon the families that call not upon thy name:</hi> your houſes ſhould never be <hi>Beth avens, i. e.</hi> houſes of iniquity, and vanity; your places, <hi>Bochims,</hi> places of weeping; your fields <hi>Ach<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el<g ref="char:EOLhyphen"/>dama's,</hi>
+               <pb n="54" facs="tcp:170297:44"/>
+fields of blood; your valleys, valleys of <hi>Achor,</hi> valleys of trouble; if you would daily, by pray<g ref="char:EOLhyphen"/>er, conſecrate them <hi>Be<g ref="char:EOLhyphen"/>thels,</hi> that is, houſes of God. Let none ſcruple to pray with their family, be<g ref="char:EOLhyphen"/>cauſe, it may be, ſome of them are not Saints; for this is the way to make them all ſo. And I never read, that our Lord Jeſus refuſed to be preſent at the Paſſe<g ref="char:EOLhyphen"/>over, which yet was not celebrated without prayers, becauſe that <hi>Judas,</hi> a Devil, was there. But this I read, that our Lord prayed in the preſence of many thou<g ref="char:EOLhyphen"/>ſands, <hi>Iohn</hi> 6.26, 27. al<g ref="char:EOLhyphen"/>though ſome of them were ſuch as laboured more for
+<pb n="55" facs="tcp:170297:44"/>
+the meat that periſheth, than for that which endu<g ref="char:EOLhyphen"/>reth to everlaſting life. <hi>ver.</hi> 66.</p>
+            <p n="3">3. Pray in publique: do not forſake the aſſembling your ſelves together, the praying to God, and prai<g ref="char:EOLhyphen"/>ſing of him in the great Congregation. The glory of a King is the multitude of his Subjects: And God is moſt honoured, when thouſands, and ten thou<g ref="char:EOLhyphen"/>ſands of his Saints come to<g ref="char:EOLhyphen"/>gether into his Courts, to bow and kneele before him in prayer. <hi>David</hi> was glad, when they ſaid, <hi>Come, let us goe into the houſe of the Lord.</hi> How good and how pleaſant a thing it is for brethren to joyn together
+<pb n="56" facs="tcp:170297:45"/>
+in <hi>prayer?</hi> God hearkens and heares, and a <hi>booke</hi> of <hi>remembrance</hi> ſhall be writ<g ref="char:EOLhyphen"/>ten for them that ſpeak of<g ref="char:EOLhyphen"/>ten one to another (as thoſe <hi>converts</hi> doe, <hi>Zech.</hi> 8.2.) <hi>Come, let us goe speedily to pray before the Lord; I will goe alſo.</hi> One ſoul well tuned in prayer, ma<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es good muſick in Gods ears;<note place="margin">M<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <hi>Cobbet</hi> of Prayer.</note>
+but he delights <hi>much</hi> (ſaith a reverend Author) I ſay <hi>moſt,</hi> in prayers in conſort, when two or three, when two or three thouſand, ga<g ref="char:EOLhyphen"/>ther together, and agree to ask any thing in the name of <hi>Chriſt.</hi> The Church on earth is never ſo like the Church in heaven, as when the four living Crea<g ref="char:EOLhyphen"/>tures, and the four and
+<pb n="57" facs="tcp:170297:45"/>
+twenty Elders, <hi>i e.</hi> when Paſtors, and People, having Harps in their hands, that is, being prepared to praiſe God, and golden vials full of Odours or Incenſe, that is, being prepared to pray unto him, when all theſe meet together, thus to wor<g ref="char:EOLhyphen"/>ſhip the Lamb, <hi>Rev.</hi> 5.8. Let Chriſtians ſay, it is good for us to be here, it is beſt for us to be here. How amiable are thy Taberna<g ref="char:EOLhyphen"/>cles, O Lord of Hoſts! this is none other than the Su<g ref="char:EOLhyphen"/>burbs of Heaven, than the gate, than a corner of Heaven, than a Heaven up<g ref="char:EOLhyphen"/>on Earth. Pray therefore all manner of prayer, but eſpecially in publique, with the Aſſemblies of Gods people.</p>
+            <p>
+               <pb n="58" facs="tcp:170297:46"/>I ſhall adde but one thing more in this particular, and that is to beſeech you, not to diminiſh ought of this ſervice, not to clip Gods Tribute-mony, or to offer an imperfect Sacrifice unto God; but at all times, but eſpecially on the Lords day, let us come together at the beginning, and tarry till the end of publique Prayers. God will not allow the Prince of his people to abſent himſelf, or to delay his coming to publique Worſhip, or to depart un<g ref="char:EOLhyphen"/>till the Concluſion. <hi>Ezek.</hi> 46.10.</p>
+            <p>And now, if there be any here, who ſhall ſay in their hearts, Wee have high thoughts of Prayer, and a
+<pb n="59" facs="tcp:170297:46"/>
+good minde to the duty; but alas, we are not able to compoſe a Prayer of our ſelves, we cannot goe to prayer except ſome lead us by the hand, we know not what to ſay as we ought, except ſome put words in our mouths. To theſe the ſecond Obſervation may give ſatisfaction, which ſpeaketh on this wiſe, ſay<g ref="char:EOLhyphen"/>ing,</p>
+            <p n="2">II. <hi>It is lawfull to pray with, or by a Set forme of Prayer.</hi>
+            </p>
+            <p>Prayer is an offering up of our deſires to God, for things agreeable to his will, in the name of Chriſt, with confeſſion of our ſins, and thankful acknowledgement of his mercies. This is the
+<pb n="60" facs="tcp:170297:47"/>
+definition of Prayer given by the late Reverend Aſ<g ref="char:EOLhyphen"/>ſembly, in their ſhorter Catechiſme. And in this we have contained all the Eſ<g ref="char:EOLhyphen"/>ſentials of Prayer: and all this may be done, whether we make uſe of a written, or printed book, or rehearſe a Prayer out of our memo<g ref="char:EOLhyphen"/>ry,<note place="margin">
+                  <hi>D. W.</hi> G<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ft of Prayer.</note> that inviſible book; or whether we may by imme<g ref="char:EOLhyphen"/>diate, and ſudden ſugge<g ref="char:EOLhyphen"/>ſtion, or according to the ſudden conceptions and dictates of our own hearts.</p>
+            <p>I ſay, therefore, that it is neither abſolutely neceſſa<g ref="char:EOLhyphen"/>ry in it ſelf, nor utterly un<g ref="char:EOLhyphen"/>lawfull, to uſe a Set form of Prayer. Confident I am, that Prayer, with, or by a Form, is better than no
+<pb n="61" facs="tcp:170297:47"/>
+prayer at all; and that, if all thoſe perſons amongſt us, who are not able to pray by immediate ſuggeſtion, or ſudden conception, or who cannot by ſtudy, &amp; pre<g ref="char:EOLhyphen"/>meditation compoſe ſuch a Prayer, as they dare offer up to God, eſpecially be<g ref="char:EOLhyphen"/>fore others, if theſe would make uſe of ſome Forms of wholſome deſires, framed by others, and if, being Maſters of Families, they would, morning and eve<g ref="char:EOLhyphen"/>ning, ingage themſelves to ſeek God with their fami<g ref="char:EOLhyphen"/>lies in this way, God might, and ſhould have honour thereby, and they receive bleſſing from God.</p>
+            <p>This lawfulneſſe of Set Formes may be evinced by
+<pb n="62" facs="tcp:170297:48"/>
+holy Scriptures, by the pra<g ref="char:EOLhyphen"/>ctiſe of the Church of God, Jewiſh and Chriſtian.</p>
+            <p>The Apoſtle <hi>Paul</hi> in his firſt Epiſtle to <hi>Timothy,</hi> ch: 2.1. makes four ſorts, or parts, of Prayer; Suppli<g ref="char:EOLhyphen"/>cations, Prayers, Interceſ<g ref="char:EOLhyphen"/>ſions, and giving of Thanks; and we have patternes, or ground, for Set Formes of all theſe in the Scriptures.</p>
+            <p>For the firſt ſort of Pray<g ref="char:EOLhyphen"/>er, wherein we deſire the averting of evils, both of ſinne and puniſhment, we have ground to do this, in, or by, a preſcribed form of words; for ſo God injoy<g ref="char:EOLhyphen"/>ned in the caſe of an uncer<g ref="char:EOLhyphen"/>tain murder,<note place="margin">
+                  <hi>Deut.</hi> 21.7, 8.</note> that the El<g ref="char:EOLhyphen"/>ders of the city, that is, next to the ſlain man, ſhould
+<pb n="63" facs="tcp:170297:48"/>
+waſh their hands over an Heifer, which was to be beheaded in the valley, and that they, or the Prieſts in their name, and roome, ſhould anſwer, and ſay, <hi>Our hands have not ſhed this blood, neither have our eyes ſeene it; Be mercifull, O Lord, unto thy people Iſrael, whom thou haſt redeemed, and lay not innocent blood unto thy people of Iſraels charge.</hi> Again, the Prophet <hi>Hoſea</hi> exhorting <hi>Iſrael</hi> to return unto the Lord, chap. 14. beginning, ſaith, <hi>Take with you words, and turn to the Lord; ſay unto him, take away all iniquity, and re<g ref="char:EOLhyphen"/>ceive us graciouſly; ſo will we render the calves of our lips,</hi> &amp;c. from which two
+<pb n="64" facs="tcp:170297:49"/>
+texts, I think it more rea<g ref="char:EOLhyphen"/>ſonable to inferre, or con<g ref="char:EOLhyphen"/>clude, that they might, without ſin, ſay thoſe very words which were put into their mouths; than to ſay they ſhould ſinne if they ſhould pray in that very form of words.</p>
+            <p n="2">2. We have in the Scri<g ref="char:EOLhyphen"/>pture formes of Prayer, or petitions for the obtaining of good things: A Forme uſed by <hi>Moſes,</hi> one who had abundance of ſpirit at the ſetting forward of the Ark, and at the reſting of the Ark, <hi>Numb.</hi> 10.35, 36. And another Form preſcri<g ref="char:EOLhyphen"/>bed to <hi>Aaron</hi> and his Sons, in bleſſing the people, <hi>Numb.</hi> 6.23, 24, 25, 26. And we have a Form of
+<pb n="65" facs="tcp:170297:49"/>
+Prayer alſo injoyned to him that paid his third yeare tithes. <hi>Deut.</hi> 26 13, 14, 15.</p>
+            <p n="3">3. A ground for a forme of Interceſſion, and that too upon a publique Faſt day, we have in <hi>Joel,</hi> chap. 2.17. <hi>Let the Miniſters of the Lord weep between the Porch and the Altar, and let them ſay, Spare the people, O Lord, and give not thy he<g ref="char:EOLhyphen"/>ritage to reproach, that the Heathen ſhould rule over them; wherefore ſhould they ſay among the people, where is now their God?</hi> I doe not believe, that theſe were all the words they did or might ſay unto God on a day of Humiliation; but I think I have more reaſon hence to gather, that they
+<pb n="66" facs="tcp:170297:50"/>
+might lawfully have uſed this form of words in their Prayers that day, than any man hath to conclude the contrary.</p>
+            <p n="4">4. A ground for Set forms of Praiſe, or Thankſ<g ref="char:EOLhyphen"/>giving, we have in thoſe many admirable formes of praiſe compoſed by <hi>David, Aſaph,</hi> and other holy men, and ſung at the Tabernacle and Temple, and that too in the times of <hi>Hezekiah</hi>'s reformation, 2 <hi>Chron.</hi> 29.30. and left upon record in the book of <hi>Pſalmes.</hi> Mr. <hi>Mede</hi> calls the booke of <hi>Pſalmes</hi> the Jewiſh Litur<g ref="char:EOLhyphen"/>gy; and truly therein we have Formes of all theſe four ſorts of Prayer. There are Prayers for averting
+<pb n="67" facs="tcp:170297:50"/>
+evill, for obtaining of good things, for the good ſtate of the Church; beſides, ſe<g ref="char:EOLhyphen"/>verall Hymnes, and ſpiritu<g ref="char:EOLhyphen"/>all Songs, ſung to the praiſe of God.</p>
+            <p>Again, I never read, or heard, that the Jews, before Chriſt, or ſince, judged all formes of Prayer unlawful: but I have read, that the Jewes, untill the time of our Saviour, did uſe the Prayer of <hi>Moſes, viz.</hi> the 90. <hi>Pſal.</hi> I have read, that our Savi<g ref="char:EOLhyphen"/>our conformed himſelf, in the celebration of the Paſs<g ref="char:EOLhyphen"/>over, unto divers cuſtomes of the Jewes, and that inſti<g ref="char:EOLhyphen"/>tuting and celebrating the Sacrament of the Lords Supper, in the cloſe of the Paſchal Supper, he and his
+<pb n="68" facs="tcp:170297:51"/>
+Diſciples ſung the ſame Hymn or Pſalme,<note place="margin">See Dr. <hi>Lightfoot</hi> of the Paſſeover.</note> after it, or at the concluſion, which the Jews uſed to do in the end of the Paſſeover. More<g ref="char:EOLhyphen"/>over, it is obſerved, that the Jewes, who lived in the dayes of <hi>Adrian</hi> the Empe<g ref="char:EOLhyphen"/>rour, <hi>viz.</hi> in the beginning of the ſecond Century, complained of the taking away their Liturgy; and therefore they had one. And laſtly, the Moderne Jews uſe ſet forms of Pray<g ref="char:EOLhyphen"/>er in their Synagogues: So that certaine it is, that the judgment of the Jews, both <hi>Ammi,</hi> and <hi>Lo-Ammi,</hi> be<g ref="char:EOLhyphen"/>fore, and ſince their reje<g ref="char:EOLhyphen"/>ction, is for the lawfulneſs of ſet formes of Prayer.</p>
+            <p>Come we to the Chriſti<g ref="char:EOLhyphen"/>an
+<pb n="69" facs="tcp:170297:51"/>
+Church; ſhe hath been ſo farre from condemning all formes, as utterly un<g ref="char:EOLhyphen"/>lawfull, that, for about twelve hundred yeares,<note place="margin">Concil. Carth. 3. can 23. Concil. Milen. 2. can. 12. &amp; Caſſand. 1. in Liturgy.</note> ſhe hath thought it expedient to uſe them in publique Di<g ref="char:EOLhyphen"/>vine worſhip. And, if we will believe <hi>Beza,</hi> in his notes upon 1 <hi>Cor.</hi> 11.31. the Apoſtle <hi>Paul</hi> did not hold it unlawfull, for ordi<g ref="char:EOLhyphen"/>nary Paſtors, in Churches conſtituted, to uſe ſet forms in the publique Aſſemblies. Suppoſe extraordinary Of<g ref="char:EOLhyphen"/>ficers of the Church, at ſuch times as they were extraor<g ref="char:EOLhyphen"/>dinarily moved, to pray, preach, and praiſe God by Pſalmes, in thoſe primitive times, were alſo aſſiſted ex<g ref="char:EOLhyphen"/>traordinarily by the mira<g ref="char:EOLhyphen"/>culous
+<pb n="70" facs="tcp:170297:52"/>
+motions, influences, and gifts of the holy Ghoſt, to doe all this without any form, preſcribed by others, or compoſed by their owne ſtudy, or premeditation: yet this hinders not, but that thoſe who had not thoſe extraordinary effuſi<g ref="char:EOLhyphen"/>ons and aſſiſtances of the holy Ghoſt, or at ſuch times as they were not ſo extraordinarily moved and influenced, even in thoſe dayes might, and we ſince may, without ſin, prepare Prayers, Sermons, and Pſalms, with ſtudy and pre<g ref="char:EOLhyphen"/>meditation; or may make uſe of Scripture, Prayers, Sermons, and Pſalmes, in the worſhip and ſervice of God. It is true, that our
+<pb n="71" facs="tcp:170297:52"/>
+Saviour bids his Diſciples, when they are brought be<g ref="char:EOLhyphen"/>fore Governors and Kings for his ſake, to take no thought, not to premedi<g ref="char:EOLhyphen"/>tate how, or what they ſhall ſpeak; <hi>For it ſhall be given them in that ſame hour what they ſhall speak; For it is not ye that speak,</hi> ſaith he, <hi>but the spirit of your father which ſpeaketh in you, Mat.</hi> 10.18, 19, 20. <hi>Mark</hi> 13.11. <hi>Luke</hi> 12.11. But I no where read, when ye come before God in prayer, the great Ruler and Governor of the World, <hi>Take no thought, neither do ye pre<g ref="char:EOLhyphen"/>meditate, but whatſoever ſhall be given you in that ſame hour, that speak ye, for it is not ye that ſpeak, but the
+<pb n="72" facs="tcp:170297:53"/>
+holy Ghoſt.</hi> Indeed the Di<g ref="char:EOLhyphen"/>ſciples had a promiſe of the Spirit, who is a ſpirit of Prayer, and of Prophecy; but of neither in ſuch a manner, as univerſally to forbid as unlawful, or un<g ref="char:EOLhyphen"/>neceſſary, all care, ſtudy, fore-thought, or premedi<g ref="char:EOLhyphen"/>tation, what to pray, or what to preach. But grant they had theſe extraordina<g ref="char:EOLhyphen"/>ry infuſions, alwaies in praying and preaching, ſo as no ſtudy, or fore-thought was at all neceſſary; yet now, thoſe extraordinary aſſiſtances ceaſing, it may ſure be lawfull for us to expect the fulfilling the promiſe of the Spirit, to help us in prayer and prea<g ref="char:EOLhyphen"/>ching, (that we may doe
+<pb n="73" facs="tcp:170297:53"/>
+both as workmen that need not to be aſhamed) but ſo, as to concur with our ende<g ref="char:EOLhyphen"/>vours, and not, his gifts to be alwaies ſuddenly infu<g ref="char:EOLhyphen"/>ſed, without all thought or ſtudy of our own.</p>
+            <p>Moreover, let me adde this, that the opinion of the unlawfulneſſe of formes of Prayer, is a Novel opinion, and, in compariſon, but of yeſterday. I no where read, or remember, I am ſure, that it was the tenet of the <hi>Albigenſes,</hi> or <hi>Waldenſes,</hi> thoſe antient witneſſes a<g ref="char:EOLhyphen"/>gainſt Antichriſt, that <hi>Wic<g ref="char:EOLhyphen"/>kliff, Huſs, Jerom</hi> of <hi>Pragu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, Luther, Melanchthon, Cal<g ref="char:EOLhyphen"/>vin, Bucer, Paulus, Fagi<g ref="char:EOLhyphen"/>us, Cranmer, Latimer, Bradford, Ridley, Hoopen,
+<pb n="74" facs="tcp:170297:54"/>
+Knox, Gilpin, Fox,</hi> moſt of them Martyrs, many Confeſſors, all enemies to the Papacy, and Reformers of the Church of latter times. Further, I no where read, that <hi>Cartwright,</hi> Dr. <hi>Reyn.</hi> Dr. <hi>Burgeſs, Hilder<g ref="char:EOLhyphen"/>ſham, Greenham,</hi> M. <hi>Bains,</hi> Mr. <hi>Bifield,</hi> Mr. <hi>Dod,</hi> Dr. <hi>Sibs,</hi> (men eminent for their gifts and graces, and all, or moſt, ſuch as were accounted no grrat friends to the Hierarchy, and Ce<g ref="char:EOLhyphen"/>remonies) ever condemned all formes of Prayer as un<g ref="char:EOLhyphen"/>lawfull, although poſſibly ſome of them might ſcruple ſome things in the Engliſh Liturgy, or judge the rigid impoſing of it, to the de<g ref="char:EOLhyphen"/>priving of many pariſhes of
+<pb n="75" facs="tcp:170297:54"/>
+the ſincere Milke of the Word, too harſh meaſure from them who ſhould have been Nurſing fathers to the Church. Certain it is, that in, and after the Reformation from Popery, the Reformed Churches generally obtained the uſe of ſet formes in publique Divine Worſhip; that the Churches of <hi>England,</hi> and of <hi>Scotland,</hi> till of late, had, &amp; the Churches of <hi>France, Geneva,</hi> the lower and upper <hi>Germany,</hi> ſtill have ſet formes of Prayer, either impoſed, or allowed, at leaſt, for the Miniſter to uſe, in publique Divine Ad<g ref="char:EOLhyphen"/>miniſtrations.</p>
+            <p>It ſhall ſuffice me at pre<g ref="char:EOLhyphen"/>ſent, if what hath been al<g ref="char:EOLhyphen"/>ready
+<pb n="76" facs="tcp:170297:55"/>
+ſaid in this matter, ſatisfie not, to recommend diſſenting Chriſtians to Mr. <hi>Perkins,</hi> Dr. <hi>Preſton,</hi> and Mr. <hi>Ball,</hi> all men of emi<g ref="char:EOLhyphen"/>nency for their excellent graces, parts, learning, and all expreſs Aſſertors of the lawfulneſſe of praying with or by a form.<note place="margin">See the life of Dr. <hi>Preſton</hi> by Mr. <hi>Ball.</hi>
+               </note> M. <hi>Perkins</hi> holds, a man may pray, when he reads a Prayer out of a book. Dr. <hi>Preſton</hi> al<g ref="char:EOLhyphen"/>lowes the uſe of ſet formes of Prayer, and anſwers the Objection about quenching of the Spirit. And Mr. <hi>Ball</hi> hath written a Treatiſe ju<g ref="char:EOLhyphen"/>ſtifying, in part, the late Liturgy.</p>
+            <p>
+               <hi>Obj.</hi> But 'tis eaſie to fore-ſee an Objection which ſome may be apt to make.
+<pb n="77" facs="tcp:170297:55"/>
+               <hi>Why doe you ſeeme to build againe the things you have ſo lately deſtroyed? Why did you ſhut the Liturgy out of the Church, if you can ſo readily open a doore for Set Formes?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> The Liturgy, or Common-prayer, was taken away (if we may believe the Aſſembly, who adviſed the removall thereof in their Preface of the Dire<g ref="char:EOLhyphen"/>ctory ſubſtituted in its roome) not, as judged by them ſimply unlawful; but, for the abuſe of it, &amp; for di<g ref="char:EOLhyphen"/>vers inconveniences which had, and, they thought, ſtill might attend the conti<g ref="char:EOLhyphen"/>nuance of it.</p>
+            <p>It was obſerved, that ill uſe was made of the Ser<g ref="char:EOLhyphen"/>vice-book,
+<pb n="78" facs="tcp:170297:56"/>
+to juſtle out preaching in divers places; and of the Ceremonies therein injoyned, to caſt out many eminently godly and able Preachers out of their Churches and Livings, for non-conformity there<g ref="char:EOLhyphen"/>unto; and to keep out others, very hopefull In<g ref="char:EOLhyphen"/>ſtruments, from the work of the Miniſtry, for Non-ſubſcription to the Book and Ceremonies; and to proſecute divers private Chriſtians for Non-obſer<g ref="char:EOLhyphen"/>vation, or elſe their oppo<g ref="char:EOLhyphen"/>ſition to the Ceremonies therein contained. Inſo<g ref="char:EOLhyphen"/>much that many, like the children of faithfull <hi>Abra<g ref="char:EOLhyphen"/>ham,</hi> forſook their owne country and fathers houſe,
+<pb n="79" facs="tcp:170297:56"/>
+and went into a ſtrange Land, <hi>viz.</hi> into <hi>America,</hi> to the end they might have their conſciences freed from theſe yoaks and burdens, as they thought, intole<g ref="char:EOLhyphen"/>rable.</p>
+            <p>Beſides, in divers places, the Miniſters were forbid<g ref="char:EOLhyphen"/>den to exerciſe their own gift of Prayer; and others did voluntarily ſuffer parts and gifts to dry up for want of uſing, becauſe they had this book at hand in all their adminiſtrations. Fur<g ref="char:EOLhyphen"/>ther, it was obſerved, many of the people did ſo ido<g ref="char:EOLhyphen"/>lize it, that they judged no other way of worſhipping God like it, or to be allow<g ref="char:EOLhyphen"/>ed by men, and accepted by God, but that.</p>
+            <p>
+               <pb n="80" facs="tcp:170297:57"/>To prevent theſe, or ſuch like miſchiefs, and inconve<g ref="char:EOLhyphen"/>niencies, for the future, as alſo, it may be, for that ſome judged it not neceſſa<g ref="char:EOLhyphen"/>ry, if tolerable, that all men ſhould be bound to uſe Crutches, becauſe ſome could not well goe without them, and alſo that they might bring the Churches of <hi>England, Scotland,</hi> and <hi>Ireland,</hi> to the neereſt con<g ref="char:EOLhyphen"/>junction and uniformity in Religion, &amp; particularly in a Directory for worſhip, &amp; catechizing, according to their Covenant newly en<g ref="char:EOLhyphen"/>tred into with the King<g ref="char:EOLhyphen"/>dome of <hi>Scotland,</hi> lately ſet all on a flame with a Ser<g ref="char:EOLhyphen"/>vice-book, (which, in ſome things, was more, though
+<pb n="81" facs="tcp:170297:57"/>
+in others leſſe liable to ex<g ref="char:EOLhyphen"/>ception than the Engliſh Liturgy) ſent thither from hence by the Archbiſhop of <hi>Canterbury.</hi> I ſay for theſe, or the like reaſons, the Aſſembly adviſed, and the Parliament, which the King had confirmed by Act, thought good, by an Ordi<g ref="char:EOLhyphen"/>nance, to lay aſide wholly the Common-prayer-book, judging it as lawful to doe it, as was for <hi>Hezekiah</hi> to break in pieces the Brazen Serpent, made by <hi>Moſes,</hi> when once abuſed to Ido<g ref="char:EOLhyphen"/>latry.</p>
+            <p>The Parliament having thus removed the Booke by an Ordinance, or two, who were we that we ſhould reſiſt God and
+<pb n="82" facs="tcp:170297:58"/>
+them, and hazard our own, and the Kingdomes, and Churches peace, to main<g ref="char:EOLhyphen"/>tain a Form, when as, with<g ref="char:EOLhyphen"/>out charity, all Prayers, whether with, or without a Form, or Book, are loſt.</p>
+            <p>If it ſhall be further ob<g ref="char:EOLhyphen"/>jected, that the Service-book was ſetled by an Act, and removed or aboliſhed by an Ordinance: To this, all I think good to anſwer here at preſent, is this, That I have heard, that an Ordinance of Parliament was of validity to ſuſpend an Act; And that that Ordinance of Parliament hath not been as yet ſu<g ref="char:EOLhyphen"/>ſpended, nor the Act for the Liturgy hitherto revi<g ref="char:EOLhyphen"/>ved by any other Act.</p>
+            <p>
+               <pb n="83" facs="tcp:170297:58"/>Let this ſuffice to juſtifie our non-uſing of the En<g ref="char:EOLhyphen"/>gliſh Liturgy.</p>
+            <p n="3">III. I come now to my laſt Obſervation, that is, to juſtifie our continued uſe of the Lords Prayer. And here let me minde you, that the ſame reverend, godly, and learned Aſſembly, which judged it expedient to take away the Common-prayer, did yet recommend the Lords prayer to be uſed in the prayers of the Church, becauſe it is (take their owne words in the Directory) <hi>Not onely a pat<g ref="char:EOLhyphen"/>tern of Prayer, but it ſelfe a moſt comprehenſive Prayer.</hi>
+            </p>
+            <p>As the ſame meaſure may be a ſtandard, to frame and try other meaſures by,
+<pb n="84" facs="tcp:170297:59"/>
+and may beſides be uſed to meaſure withall: So may this Prayer of our Lord, be uſed, both as a Pattern of prayer to frame our pray<g ref="char:EOLhyphen"/>ers by, as a Standard to examine them by, and as a Prayer it ſelfe alſo. And truly, if our Saviour had meant this Prayer onely for a pattern, and that it ſhould be unlawful to uſs it as a Prayer, I believe him ſo plain, and ſo good a ſpea<g ref="char:EOLhyphen"/>ker, (for never man ſpake like him, and in his mouth was found no guile) that he would never have an<g ref="char:EOLhyphen"/>ſwered ſuch a requeſt, <hi>Lord teach us to pray as John alſo taught his Diſciples,</hi> in ſuch expreſſe language, <hi>When ye pray, ſay, Our Father,</hi> &amp;c.
+<pb n="85" facs="tcp:170297:59"/>
+without ſome caution, li<g ref="char:EOLhyphen"/>mitation, or reſtriction, to prevent miſtakes. For had it been poſſible, that, when our Lord ſaid, <hi>When ye pray, ſay, Our Father,</hi> &amp;c. that his ſenſe and meaning ſhould be, when ye pray, ye muſt <hi>not</hi> ſay <hi>Our Father,</hi> &amp;c. ye muſt not ſay theſe words at any time, or in any caſe, but onely pray al<g ref="char:EOLhyphen"/>waies after this patterne; we may ſuppoſe the holy Ghoſt would have added ſome explanation, or inter<g ref="char:EOLhyphen"/>pretation (as in other ca<g ref="char:EOLhyphen"/>ſes, <hi>viz. John</hi> 7.38, 39. and <hi>John</hi> 2.20, 21.) the ra<g ref="char:EOLhyphen"/>ther conſidering there is no room here, as in other places, for a figurative ſenſe; and, that it is the
+<pb n="86" facs="tcp:170297:60"/>
+office of the holy Ghoſt, to lead us into all truth, and ſo to preſerve us from er<g ref="char:EOLhyphen"/>ror; and, that the words are ſo plaine a forme of Prayer, and ſo plain for the uſing of them, ſo that plainer needed not, upon ſuppoſition that it was the minde of Chriſt that theſe words ſhould be uſed as a Prayer.</p>
+            <p>Let us reaſon the matter a little, what can be ſaid againſt uſing this Prayer of Chriſt now, which might not have been objected, or pretended by <hi>Aaron</hi> and his Sons, for their not uſing the forme of bleſſing pre<g ref="char:EOLhyphen"/>ſcribed of old, <hi>Numb.</hi> 6.23, 24. Yea, how ſhall we now juſtifie our practice of
+<pb n="87" facs="tcp:170297:60"/>
+bleſſing, or praying for a bleſſing in the words of the Apoſtle <hi>Paul,</hi> in the cloſe of our Sermons; if it be utterly unlawfull to pray unto God in the words of our Lord Jeſus, in the be<g ref="char:EOLhyphen"/>ginning of our Sermons? What, is the Diſciple come to be above his Maſter? and the Servant above his Lord? Again, how can we think, that God, that hears our prayers, who have not the Spirit in ſuch a meaſure as the Apoſtles had, ſhould not regard his Sons prayer? ſhould therefore not heare his childrens prayers, be<g ref="char:EOLhyphen"/>cauſe preſented unto him in his owne and onely Son's words? Yea, will God the Father heare our prayers,
+<pb n="88" facs="tcp:170297:61"/>
+indited by the holy Spirit, &amp; not hear us when we pray that which his Son made, &amp; put in our hands &amp; hearts? And, did not the ſame holy Spirit that indited our pray<g ref="char:EOLhyphen"/>ers, indite the prayer of Chriſt too? and do not we, who have the Spirit by meaſure, receive of Chriſts fulneſſe, as all other graces, ſo alſo the ſpirit of Grace and Supplication? I dare ſay, that the holy Ghoſt is not therefore out of love, out of conceit with his own conceptions, becauſe they are not new? Muſt all our prayers neceſſarily be put up in our Saviours name, if they finde acceptance, if they be heard and anſwe<g ref="char:EOLhyphen"/>red, and muſt they in no
+<pb n="89" facs="tcp:170297:61"/>
+wiſe, at no time, in any caſe, be ſent up in his owne words? or will Jeſus Chriſt, the great Favourite, and Maſter of Requeſts in hea<g ref="char:EOLhyphen"/>ven, refuſe to preſent our Petitions, becauſe of his own drawing or inditing? Muſt we alway, when we pray, pray after this manner, and muſt we never, when we pray, ſay, <hi>Our Father,</hi> &amp;c? If one be Scripture, is not the other alſo? yea, doubt<g ref="char:EOLhyphen"/>leſſe both, and in both we have the minde of Chriſt: for he that ſaid that, ſaid this alſo. Muſt we alway keep to Chriſts ſenſe and meaning, and yet never uſe his words, but our owne? Surely, we cannot have better matter, better me<g ref="char:EOLhyphen"/>thod,
+<pb n="90" facs="tcp:170297:62"/>
+better words than is contained in Chriſts owne Prayer. Let us therefore not ſo requite the kindneſs of Chriſt, in teaching us a form of prayer, and his condeſcention in allowing us to pray after this pat<g ref="char:EOLhyphen"/>tern, and giving us his ſpi<g ref="char:EOLhyphen"/>rit to help us in prayer, as wholly to lay aſide the very words of Chriſt; but, as we judge it lawful to praiſe God in the words of <hi>Da<g ref="char:EOLhyphen"/>vid,</hi> ſo let us not ſcruple the praying unto God in the words of the <hi>Meſſiah,</hi> the Son of <hi>David,</hi> yea, <hi>Davids</hi> Lord. Let us thus honour our Lord and Maſter, as by reading his Word, ſo by praying his Prayer.</p>
+            <p>I ſhall now come to en<g ref="char:EOLhyphen"/>deavour
+<pb n="91" facs="tcp:170297:62"/>
+to remove ſome of thoſe rubs, or ſtumbling-blocks, I mean Objections, which already lye, or poſ<g ref="char:EOLhyphen"/>ſibly may be caſt in the way, to hinder this Do<g ref="char:EOLhyphen"/>ctrine from having a cleare paſſage amongſt us.</p>
+            <p>
+               <hi>Obj.</hi> If Chriſts meaning was, that we ſhould ſay theſe words when we pray, then we muſt alway ſay theſe words, and no other words, when we pray; and ſo if this text make the ſay<g ref="char:EOLhyphen"/>ing of this Prayer lawfull, it makes all other Prayers beſides this unlawfull.</p>
+            <p>
+               <hi>Anſw.</hi> It doth not fol<g ref="char:EOLhyphen"/>low, that if we may ſay theſe words, then we may ſay no other; or, that we muſt neceſſarily rehearſe
+<pb n="92" facs="tcp:170297:63"/>
+theſe very words, as oft as we goe to prayer. Ile in<g ref="char:EOLhyphen"/>ſtance in two parallel texts. Our Saviour ſaith, <hi>Mat.</hi> 6.6. <hi>But thou, when thou prayeſt, enter into thy cloſet; and when thou haſt ſhut thy doore, pray, &amp;c.</hi> It doth not hence follow, that we muſt never pray, but privately, or privately but in our cloſet, or with our doores ſhut: and yet we may pray in our cloſets, and with our doores ſhut. Our Saviour prayed oft in the Mount of <hi>Olives.</hi> Again, our Saviour ſaith, <hi>Luke</hi> 12.13. <hi>When thou makeſt a dinner, or a ſupper, call not thy friends, nor thy brethren, neither thy kinſmen, nor thy rich neighbours, leſt they
+<pb n="93" facs="tcp:170297:63"/>
+alſo bid thee again, and a recompence be made thee: But when thou makeſt a feaſt, call the poore, the maimed, the blind.</hi> From hence it follows, that we may call the poore, the blind, the halt, the maimed, when we make a feaſt; and yet from hence it doth not follow, that we muſt never make a feaſt but they muſt be called, or none elſe but ſuch. And ſo, becauſe our Lord ſaith, <hi>when ye pray ſay, Our Father, &amp;c.</hi> I gather, I think, rational<g ref="char:EOLhyphen"/>ly, that we may ſay theſe words; and yet conceive it unreaſonable, that then we may ſay no other, or that we muſt ſay theſe words as often as we pray. The
+<pb n="94" facs="tcp:170297:64"/>
+King was bound to read in the book of the Law all the daies of his life; and yet he might, and was to do, other things beſides read in the book of the Law, and might, without ſin, read in other books daily, beſides the book of the Law. Affirmative pre<g ref="char:EOLhyphen"/>cepts bind <hi>ſemper,</hi> but not <hi>ad ſemper:</hi> and ſo, though we ſhould ſay it was a com<g ref="char:EOLhyphen"/>mandement of Chriſt, <hi>When ye pray, ſay, &amp;c.</hi> (as it looks more like a Precept, Injunction, or command, than a Prohibition) yet it followes not, that we muſt pray no other prayer; or, never pray but that we muſt adde this Prayer alſo. I ſay we may pray, ſaying
+<pb n="95" facs="tcp:170297:64"/>
+theſe very words, becauſe Chriſt ſaith, <hi>When ye pray, ſay;</hi> And I ſay, we may pray in other words, after this pattern, or model, be<g ref="char:EOLhyphen"/>cauſe I read, <hi>Mat.</hi> 6.9. <hi>Af<g ref="char:EOLhyphen"/>ter this manner pray ye, Our Father, &amp;c.</hi> And becauſe I read that the Apoſtles prayed other prayers, <hi>Acts</hi> 4.24, 25. and in many other Scriptures.</p>
+            <p>If any ſay, <hi>But we never read that the Apoſtles uſed this Prayer at all.</hi>
+            </p>
+            <p>To this I return anſwer, That, though we read not that they ever did uſe this Prayer, yet we no where read in Scripture that they did not; and we have the authority of the Ancients, that they did uſe it, and
+<pb n="96" facs="tcp:170297:65"/>
+particularly in the conſe<g ref="char:EOLhyphen"/>cration of the elements in the Sacrament of the Lords Supper.<note place="margin">Hieron. adverſus Pelag. Greg <hi>l. 7.</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p. <hi>63.</hi>
+               </note> Again, it followes not, becauſe the Scripture is ſilent, as to the Apoſtles practiſe, whether they uſed or not uſed the Lords Pray<g ref="char:EOLhyphen"/>er, that therefore they did not uſe it at all (To plough a little as to the ſubſtance of what I ſay with <hi>Mon<g ref="char:EOLhyphen"/>ſier de Spaign</hi>'s Heifer, in anſwer to this Objection.) We never read that the Apoſtles baptized any in the name of the Father, the Son, and the holy Ghoſt; ſhall we therefore believe they did not, or that is was unlawfull for them to doe ſo? Becauſe our Saviour ſaith, <hi>Goe teach all nations,
+<pb n="97" facs="tcp:170297:65"/>
+baptizing them in the name of the Father, of the Son, and the holy Ghoſt.</hi> I conclude, that they might lawfully, and ſo may we now, uſe that very form of words in Baptiſme; notwithſtanding that I read not in the holy Scriptures of any baptiſed in that form, but the Scri<g ref="char:EOLhyphen"/>ptures ſpeak expreſly of ſome who were baptized in the name of the Lord Je<g ref="char:EOLhyphen"/>ſus, either by ſome of <hi>Johns</hi> Diſciples, or by the Apo<g ref="char:EOLhyphen"/>ſtle <hi>Paul, Acts</hi> 19.5. but it no where records the ba<g ref="char:EOLhyphen"/>ptiſme of any, expreſly, in the other forme. Now be<g ref="char:EOLhyphen"/>cauſe of this practiſe of the Church, I collect, they ſinned not who baptiſed in the name of the Lord Je<g ref="char:EOLhyphen"/>ſus;
+<pb n="98" facs="tcp:170297:66"/>
+and, becauſe of Chriſts command, <hi>Mat.</hi> 28. latter end, I believe it very law<g ref="char:EOLhyphen"/>full to baptize in the name of the Father, the Son, and the holy Ghoſt: and, that it is now lawfull, and, I think, moſt expedient, at leaſt, (to ſay no more) to baptize now in this ſame form of <hi>The Father, the Son, and the holy Ghoſt.</hi> And ſo in the preſent caſe, al<g ref="char:EOLhyphen"/>though I read not in Scri<g ref="char:EOLhyphen"/>pture, that the Diſciples did uſe the Lords Prayer for a Prayer, (yet it ſeemes very ſtrange if they never ſhould, our Saviour ſpea<g ref="char:EOLhyphen"/>king ſo expreſly, <hi>When ye pray, ſay, Our Father, &amp;c.</hi>) yet I judge it lawfull for them, and ſo for us, to uſe
+<pb n="99" facs="tcp:170297:66"/>
+it, becauſe of this text; yea, I will adde, that put the caſe thoſe who had the ex<g ref="char:EOLhyphen"/>traordinary miraculous aſ<g ref="char:EOLhyphen"/>ſiſtance of the holy Ghoſt in praying, did not actually uſe this very forme, yet I think it lawfull and expedi<g ref="char:EOLhyphen"/>ent for us to uſe it, who have neceſſarily no ſuch in<g ref="char:EOLhyphen"/>fallible aſſiſtance and gui<g ref="char:EOLhyphen"/>dance in our prayers.</p>
+            <p>
+               <hi>Obj.</hi> But the Evangeliſt <hi>Matthew,</hi> chap. 6.16. and this Evangeliſt <hi>Luke</hi> here, ſet down the Lords Prayer with ſome difference. In the one it is <hi>Forgive us our ſins, for we alſo forgive eve<g ref="char:EOLhyphen"/>ry one that is indebted to us;</hi> in the other it is, <hi>Forgive us our debts, as we forgive our debtors.</hi> In the one, <hi>For
+<pb n="100" facs="tcp:170297:67"/>
+thine is the Kingdome, the Power, and the Glory, for ever,</hi> is added to the Peti<g ref="char:EOLhyphen"/>tions; in the other it is omitted: from hence it may be gathered, that we are not to uſe the very words; for, if ſo, which forme ſhould we follow?</p>
+            <p>
+               <hi>Anſ.</hi> I anſwer with Mr. <hi>de Spaign,</hi> the Evangeliſts, and the Apoſtle <hi>Paul,</hi> re<g ref="char:EOLhyphen"/>late Chriſts words in the celebration of the Lords Supper diverſly: may we not therefore uſe the words of any of them? yes ſurely, of any one of them, accor<g ref="char:EOLhyphen"/>ding to the Directory. So here it doth not follow, that we may not uſe the words of either of the Evangeliſts; but, on the contrary, that
+<pb n="101" facs="tcp:170297:67"/>
+we may indifferently uſe the words of either; and ſo may pray, either in the form of words recorded by the Evangeliſt <hi>Matthew,</hi> or elſe according to this form in the text. We think it not unlawfull, but expedient, in the celebration of the Lords Supper, to retain the words of ſome of the Evan<g ref="char:EOLhyphen"/>geliſts, or of the Apoſtle <hi>Paul,</hi> 1 <hi>Cor.</hi> 11. upon that occaſion. And ſo I ſee no ſufficient reaſon, but we may, and that it is expedi<g ref="char:EOLhyphen"/>ent to uſe Chriſts owne words, either at his firſt, or ſecond delivery of it, either as recorded by one, or the other Evangeliſt. And laſtly, who knowes but Jeſus Chriſt, ſpeaking
+<pb n="102" facs="tcp:170297:68"/>
+               <hi>Syriack,</hi> the language then commonly uſed by the <hi>Jewes;</hi> might expreſſe him<g ref="char:EOLhyphen"/>ſelfe in the ſame <hi>Syriack</hi> words at both times; and yet the Evangeliſts render the ſame diverſly in ano<g ref="char:EOLhyphen"/>ther tongue, keeping ſtill the ſame ſenſe; as the ſame Greek words may be truly tranſlated, and yet rendred in Engliſh in ſeverall, or diverſe words, but all to the ſame ſenſe.</p>
+            <p>
+               <hi>Obj.</hi> But it is our duty to pray in the Spirit, in the holy Ghoſt, and ſo as the holy Spirit immediately moves us, or ſuggeſts to us, for matter, and words, and method; and ſo we are not to be tied to any form of prayer. Poſſibly this
+<pb n="103" facs="tcp:170297:68"/>
+was, and might be uſed for a time, namely, till Chriſt was glorified, and the holy Ghoſt given; as <hi>Johns</hi> form might laſt till Jeſus Chriſt gave a new one, ſo this form of prayer might be of uſe untill the coming down of the holy Ghoſt, to teach Chriſtians to pray of them<g ref="char:EOLhyphen"/>ſelves, without this, or any other form.</p>
+            <p>
+               <hi>Anſ.</hi> To this Objection I ſay three things:</p>
+            <p n="1">1. That we are now to pray in the holy Ghoſt, in a right ſenſe, but not in the ſenſe and manner above alleadged: And ſo (to ſay no more) did thoſe before Chriſts coming.</p>
+            <p n="2">2. That we may truly pray in the Spirit, accor<g ref="char:EOLhyphen"/>ding
+<pb n="104" facs="tcp:170297:69"/>
+to our duty, al<g ref="char:EOLhyphen"/>though we uſe the Lords Prayer.</p>
+            <p n="3">3. The coming of the ho<g ref="char:EOLhyphen"/>ly Ghoſt hath not taken away the Lords Prayer; but that, notwithſtanding, it may be uſed in the pray<g ref="char:EOLhyphen"/>ers of the Church, and her Members, until Chriſt come again.</p>
+            <p>Of the firſt, All Chriſti<g ref="char:EOLhyphen"/>ans ('tis true) muſt pray in the Spirit, as all Miniſters of Chriſt are to preach in the evidence and demon<g ref="char:EOLhyphen"/>ſtration of the Spirit, and in words which the holy Ghoſt teacheth; and yet this hinders not but we may, and muſt, ſtudy and premeditate for our Ser<g ref="char:EOLhyphen"/>mons, not alway expecting
+<pb n="105" facs="tcp:170297:69"/>
+extraordinary ſupplies from the holy Ghoſt, ſo as that it ſhould be given us always in that houre what to preach, and it ſhould not be we that preach, or ſpeak, but the holy Ghoſt in us. The holy Ghoſt hath made known to us the minde of God in the Scriptures: we are to ſtudy them, and the matters contained in them, and to preach the Word of God, Scripture-truthes, plainly and affectionately, as thoſe who have found favour to be taught of God, to have our under<g ref="char:EOLhyphen"/>ſtandings opened to under<g ref="char:EOLhyphen"/>ſtand the Scriptures, to have our wills bowed to Gods revealed will, and our affe<g ref="char:EOLhyphen"/>ctions warmed with love to
+<pb n="106" facs="tcp:170297:70"/>
+the truth, and zeale for it, and as thoſe who have in themſelves experimented thoſe things which they de<g ref="char:EOLhyphen"/>clare unto others. Beſides, Miniſters may, and ought to read the holy Scriptures; and in ſo doing, although for the preſent they are tied unto words; yet this doth in no wiſe quench the Spirit; the Scriptures them<g ref="char:EOLhyphen"/>ſelves being dictated by the Spirit: ſo, when we pray, we are to pray in the Spi<g ref="char:EOLhyphen"/>rit, that is, for ſuch things, and in ſuch a manner, as the holy Ghoſt teacheth in the Scriptures of truth; we are to pray in faith, to come to God in Chriſts name, merits, mediation, truſting to be heard and
+<pb n="107" facs="tcp:170297:70"/>
+anſwered for Chriſts ſake, with earneſtneſſe and im<g ref="char:EOLhyphen"/>portunity, and ſo with ſuch ſighs and groans which are unutterable, which cannot ſufficiently be expreſſed in words.</p>
+            <p n="2">2. As Believers before Chriſt, particularly <hi>Moſes</hi> and <hi>Aaron,</hi> had the Spirit, and his help and aſſiſtance in prayer (ſo far as was requiſite) notwithſtanding they, ſometimes, uſed pre<g ref="char:EOLhyphen"/>ſcribed forms of Gods own inditing &amp; appointing: And as <hi>Ieſus Chriſt</hi> himſelf prayed in the ſpirit when he prayed in the words of <hi>David,</hi> Pſal. 22.1. <hi>My God, my God, why haſt thou forſaken me?</hi> So thoſe that are Chriſts, may pray alſo in the ſpirit,
+<pb n="108" facs="tcp:170297:71"/>
+in the uſing the prayer of Chriſt, that being a Prayer, for matter, method, words, compoſed by him who had the Spirit without meaſure, &amp; recorded in the very form of a Prayer, and with this preface, <hi>When ye pray, ſay,</hi> &amp;c. by the holy Ghoſt that is, by the Evangeliſt moved and aſſiſted infallibly by the holy Ghoſt.</p>
+            <p>If that place be urged, 1 <hi>Cor.</hi> 14.15. <hi>I will pray with the ſpirit, and with un<g ref="char:EOLhyphen"/>derſtanding alſo.</hi> I anſwer, it followes, <hi>I will ſing with the Spirit, and with underſtanding alſo.</hi> So that, if the former part could poſſibly, with any good reaſon, be expounded ſo as to debarre us from the
+<pb n="109" facs="tcp:170297:71"/>
+uſe of the Lords prayer; the latter will exclude <hi>Da<g ref="char:EOLhyphen"/>vids,</hi> and all Scripture-Pſalmes too, out of the Church. But the ſenſe and meaning of that place is of another importance, as ap<g ref="char:EOLhyphen"/>peares by the context; and that may ſeem to be this, I will not make uſe of the extraordinary gift of the Spirit, inabling me to ſpeak in an unknown, or ſtrange language, either in praying to, or praiſing of God in the Church, where it is not underſtood by the unlear<g ref="char:EOLhyphen"/>ned, and therefore cannot be to edification. My own ſpirit, or I, may indeed pray, according to the in<g ref="char:EOLhyphen"/>ward man, and make uſe, outwardly, of the gift of
+<pb n="110" facs="tcp:170297:72"/>
+Tongues, that gift of the holy Ghoſt in praying; but I make no uſe of my under<g ref="char:EOLhyphen"/>ſtanding to the benefit of others: I reſolve therefore ſo to pray, and ſo to ſing, as I may be underſtood by others, even as if I had no ſuch gift of Tongues, as a man would pray that hath not that gift of tongues, which is an extraordinary gift of the Spirit.</p>
+            <p n="3">3. I come to my third Propoſition, and that is, to prove that the coming of the holy Ghoſt doth not take away the uſe of the Lords Prayer, as a Prayer. And were it ſo, as is preſu<g ref="char:EOLhyphen"/>med in the Objection, that it was given onely for that time untill the coming of
+<pb n="111" facs="tcp:170297:72"/>
+the holy Ghoſt, and that it was out of date in the day of Pentecoſt; even this Evangelical form of prayer, like the legall obſervations. I ſay, were it ſo, then the uſe of the Lords Prayer ſhould ceaſe, both as a pat<g ref="char:EOLhyphen"/>tern, and as a form of pray<g ref="char:EOLhyphen"/>er; it ſhould neither be any more, ſince Pentecoſt, a Directory, or Liturgy. But the truth is, that the promiſe of the holy Ghoſt to teach Chriſtians to pray, and the gift of the holy Ghoſt ſo promiſed, doth not (neceſſarily) take a<g ref="char:EOLhyphen"/>way all helps, or directi<g ref="char:EOLhyphen"/>ons from Chriſt, or from the Scriptures of the Pro<g ref="char:EOLhyphen"/>phets, ſo that they ſhould thenceforth be void, and of
+<pb n="112" facs="tcp:170297:73"/>
+none effect, to all intents and purpoſes about, or concerning Prayer. If the promiſe of the teaching of the holy Ghoſt; if thoſe Scriptures, <hi>Ye have an a<g ref="char:EOLhyphen"/>nointing that teacheth you all things; and, when he comes he ſhall lead you into all truth,</hi> doth not diſcharge us from the uſe of mens teaching us, and preaching unto us, and from our own reading the holy Scriptures, the doctrine of the Pro<g ref="char:EOLhyphen"/>phets, of our Saviour Chriſt, of his Apoſtles; no more doth the other promiſe, of the ſpirit of Prayer, take away all uſe of Scripture-prayers, eſpecially of our Lords Prayer. The pro<g ref="char:EOLhyphen"/>miſe of baptizing with the
+<pb n="113" facs="tcp:170297:73"/>
+holy Ghoſt, when it was fulfilled, did not make void, or take away Baptiſme of water: no more doth the promiſe of the holy Ghoſt, to help us to pray, and in prayer take away the uſe of the Lords Prayer. It was the work of the holy Ghoſt to teach, and to help Chri<g ref="char:EOLhyphen"/>ſtians to offer up this Pray<g ref="char:EOLhyphen"/>er, and all other their prayers in the name, merits, and mediation of Jeſus Chriſt, to ſtir up in them good and holy deſires, agreeable to the requeſts, or petitions, continued in this prayer, and to deſcend to many particular deſires and petitions, and to ex<g ref="char:EOLhyphen"/>preſſe thoſe deſires, in pro<g ref="char:EOLhyphen"/>per, words, and ſignificant
+<pb n="114" facs="tcp:170297:74"/>
+expreſſions; all which de<g ref="char:EOLhyphen"/>ſires were ſummarily com<g ref="char:EOLhyphen"/>prehended in the Petitions, and words or expreſſions of the Lords prayer. I ſay, this was the office and work of the holy Ghoſt; which doth in no wiſe take away all lawfull uſe of the Lords prayer as a prayer: For ſurely the holy Spirit will not therefore refuſe to aſ<g ref="char:EOLhyphen"/>ſiſt us when we pray this prayer, becauſe it is a pray<g ref="char:EOLhyphen"/>er made by Jeſus Chriſt, and regiſtred in the holy Scriptures, written by thoſe who were full of, and mo<g ref="char:EOLhyphen"/>ved by the holy Ghoſt in that work.</p>
+            <p>Nor doe I believe, that God the holy Ghoſt, who is the God of Order, and
+<pb n="115" facs="tcp:170297:74"/>
+not of Confuſion, will ſug<g ref="char:EOLhyphen"/>geſt or infuſe into us ſuch deſires, as ſhall neceſſarily turn us out of the Lords prayer, whileſt we are uſing it in a right manner. It is not probable, that the ho<g ref="char:EOLhyphen"/>ly Spirit will turn us out of the road wherein the Sonne appointed us to goe to the Father. And I pray, what deſires are there, that are holy, juſt, and good (ſuch are all the deſires of which the holy Ghoſt is authour) but are comprehended in this prayer? Doubtleſſe as the Spirit of the Prophets, in the Apoſtles dayes, was ſubject to the Prophets: ſo tis no diſparagement to the ſpirit of prayer, which Chriſtians have in theſe
+<pb n="116" facs="tcp:170297:75"/>
+dayes, to be regulated by the ſpirit of prayer which was in Chriſt; and ſo, con<g ref="char:EOLhyphen"/>ſequently, by that forme which he hath left us. Muſt the whole congregation be tyed up to the forme of the ſpeaker, whether Miniſter or other in prayer; and may he in no wiſe be gui<g ref="char:EOLhyphen"/>ded by Chriſts Prayer? Be<g ref="char:EOLhyphen"/>loved brethren, whilſt ye ſo judge, are ye not parti<g ref="char:EOLhyphen"/>all in your ſelves, and to your ſelves?</p>
+            <p>If it be asked, what's the reaſon, that when we have been praying a long time, either according to a premeditated forme, or a conceived prayer, or in a mixt way betwixt both, for the things contained in the
+<pb n="117" facs="tcp:170297:75"/>
+Lord prayer, we yet con<g ref="char:EOLhyphen"/>clude our prayers with the Lords prayer, Is not this a vaine repetition?</p>
+            <p>
+               <hi>Anſw.</hi> For as much as when we have prayed our beſt, we may have failed in ſomething; our prayer may have been defective, imperfect; It is not there<g ref="char:EOLhyphen"/>fore vaine, but to purpoſe, and very reaſonable, to re<g ref="char:EOLhyphen"/>hearſe that prayer, where<g ref="char:EOLhyphen"/>in is nothing defective, no<g ref="char:EOLhyphen"/>thing ſuperfluous, nothing out of its due place and or<g ref="char:EOLhyphen"/>der.</p>
+            <p>Nor is this an Innovati<g ref="char:EOLhyphen"/>on, it was the practice of the antient Church,<note place="margin">Quam to<g ref="char:EOLhyphen"/>t<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m p<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>titio<g ref="char:EOLhyphen"/>nem fere omnis Eccleſia Dominica oratione concludit.</note> if we will believe <hi>Auſtin</hi> in his 59. Epiſtle <hi>q.</hi> 5. where he
+<pb n="118" facs="tcp:170297:76"/>
+tells, that the Church did generally conclude their prayers and bleſſings, at the conſecration and diſtri<g ref="char:EOLhyphen"/>bution of the Elements, at the Lords Supper, with the Lords Prayer.</p>
+            <p>And it hath been obſer<g ref="char:EOLhyphen"/>ved, that they who wholly omit, or diſuſe the Lords Prayer, as a prayer, doe ſeldome follow the Lord Chriſt fully in it as a pat<g ref="char:EOLhyphen"/>terne; namely, in this par<g ref="char:EOLhyphen"/>ticular, they ſeldome plead with God for forgiveneſſe of ſinnes, with this argu<g ref="char:EOLhyphen"/>ment, as, or becauſe <hi>we forgive thoſe who treſpaſſe a<g ref="char:EOLhyphen"/>gainſt us;</hi> and doe not al<g ref="char:EOLhyphen"/>waies pray againſt Temp<g ref="char:EOLhyphen"/>tation. If they ſeek to ju<g ref="char:EOLhyphen"/>ſtifie their not uſing the
+<pb n="119" facs="tcp:170297:76"/>
+Lords Prayer, and their not imitating it, in the former of theſe particulars, leſt they ſhould occaſion many to pray againſt them<g ref="char:EOLhyphen"/>ſelves, becauſe they can<g ref="char:EOLhyphen"/>not finde in their hearts to forgive their brethren.</p>
+            <p>To this we reply, that all our prayers ought to be according to this modell or pattern, themſelves being Judges. To the Lords Prayer bring we all our prayers; if they are not according to this rule, it is becauſe, as to that thing wherein they are irregular, or not conforme hereto, the true ſpirit of prayer is not in them.</p>
+            <p n="2">2. If we will not heare Gods Commandement, to
+<pb n="120" facs="tcp:170297:77"/>
+forgive our brethren, how ſhould we expect God ſhould heare our prayers for forgiveneſſe? we muſt both pray, and practiſe ac<g ref="char:EOLhyphen"/>cording to Gods will; if we would have our wills done, if we would have God fulfill our deſires.</p>
+            <p n="3">3. The crookedneſs of mens hearts and waies, can be no right rule for Gods Miniſter in publick prayer, but the Word of God, and prayer of our Lord Chriſt.</p>
+            <p n="4">4. The uſing of this prayer, may be inſtead of a Sermon, to ſuch malitious ones, to minde them of, and move them to forgive<g ref="char:EOLhyphen"/>neſſe. However, I doubt not but ſome of the <hi>Iſrae<g ref="char:EOLhyphen"/>lites,</hi> might be guilty of
+<pb n="121" facs="tcp:170297:77"/>
+ſome of thoſe ſins, againſt which the curſe was de<g ref="char:EOLhyphen"/>nounced by the Prieſts on Mount <hi>Ebal,</hi> and to which the Congregation ſaid <hi>Amen.</hi>
+            </p>
+            <p>
+               <hi>Obj.</hi> Papiſts, and pro<g ref="char:EOLhyphen"/>fane ignorant Proteſtants, make an ill uſe of this good prayer, make a kind of Idoll of it; and therefore we ſhould lay it aſide, after the example of <hi>Hezekiah,</hi> who demoliſhed the bra<g ref="char:EOLhyphen"/>zen Serpent, when it was abuſed to Idolatry, 2 <hi>King.</hi> 18.4.</p>
+            <p>
+               <hi>Anſw.</hi> Some mens abuſe of naturall things, muſt not hinder or prejudice others, in their right to uſe them lawfully; much leſſe muſt mans abuſe, annull or
+<pb n="122" facs="tcp:170297:78"/>
+make void Gods Inſtituti<g ref="char:EOLhyphen"/>ons. Our Saviour ſanctifyed the Sabbath, although the <hi>Jewes</hi> were ſuperſtitious in their manner of obſervati<g ref="char:EOLhyphen"/>on of it. We muſt not lay aſide the firſt part of the Goſpell, written by the ho<g ref="char:EOLhyphen"/>ly Evangeliſt <hi>John,</hi> becauſe it hath been abuſed in charmes, &amp;c. And we may ſtill uſe the words of Chriſt, <hi>This is my body,</hi> in celebration of the Lords Supper; notwithſtanding that Papiſts thereupon ground Tranſubſtantiati<g ref="char:EOLhyphen"/>on, and Artolatry, or wor<g ref="char:EOLhyphen"/>ſhip of the bread; belie<g ref="char:EOLhyphen"/>ving it to be the body of Chriſt corporally, and not only Sacramentally. As the Apoſtle <hi>Paul</hi> to <hi>Timothy,</hi>
+               <pb n="123" facs="tcp:170297:78"/>
+1 <hi>Epiſt.</hi> Chap. 1.8. ſaith of the law of God, <hi>The law is good if a man uſe it law<g ref="char:EOLhyphen"/>fully:</hi> So ſay I of the prayer of our Lord, The Prayer is good, if a man uſe it law<g ref="char:EOLhyphen"/>fully. If the meer abuſe of things ſhould take away all lawfull uſe of them, we ſhould ſoon be deprived of the benefit, both of Gods creatures, and of his ordi<g ref="char:EOLhyphen"/>nances: we muſt no more uſe bread, and wine, and water, thoſe neceſſary things, either in or out of the Sacrament. The inſtance of the brazen Serpent, comes not up fully to the matter in hand. For firſt, now there was no poſſible uſe of it, for that end to which at firſt God ordained
+<pb n="124" facs="tcp:170297:79"/>
+it to be made; <hi>Num.</hi> 21.8, 9. And God did never ap<g ref="char:EOLhyphen"/>point, that this ſhould be continued as a monument of that mercy. Again, the memoriall of the miracu<g ref="char:EOLhyphen"/>lous cure once wrought, up<g ref="char:EOLhyphen"/>on thoſe that looked upon this brazen Serpent, was ſufficiently preſerved, in being regiſtred by <hi>Moſes,</hi> Gods pen-man, or Secreta<g ref="char:EOLhyphen"/>ry, in the records of the ho<g ref="char:EOLhyphen"/>ly Scriptures. And Laſtly, <hi>Hezekiah</hi> did remove and aboliſh this brazen Serpent without ſin. But, as for the Lords prayer, the caſe is o<g ref="char:EOLhyphen"/>therwiſe in all theſe or the like particulars. It is now of uſe, both as a pattern and as a prayer. It is made a portion of the holy Scri<g ref="char:EOLhyphen"/>ptures,
+<pb n="125" facs="tcp:170297:79"/>
+and ſo heaven and earth muſt paſſe away ra<g ref="char:EOLhyphen"/>ther then a jot or tittle of this Prayer. If this prayer ſhould be wholy laid aſide, there is, beſides, no ſuch perfect compleat forme of prayer, and rule or touch<g ref="char:EOLhyphen"/>ſtone of prayer, as this, ex<g ref="char:EOLhyphen"/>tant in all the Scriptures. And laſtly, the Lord would not hold him guiltleſſe who ſhould blot this prayer out of the book of the Scri<g ref="char:EOLhyphen"/>pture: But he may juſtly feare, to have his name blotted out of the book of life. Our Lord Jeſus him<g ref="char:EOLhyphen"/>ſelf was a Stone of ſtum<g ref="char:EOLhyphen"/>bling, &amp; a rock of offence, to many; but to them that believe he was, and is, a choyſe ſtone, a precious
+<pb n="126" facs="tcp:170297:80"/>
+foundation, corner Stone, &amp;c. And ſo I ſay of the Lords Prayer, it may per<g ref="char:EOLhyphen"/>haps be a ſtone of ſtum<g ref="char:EOLhyphen"/>bling, an occaſion of fall to ſome; but to them that be<g ref="char:EOLhyphen"/>leive, and uſe it in faith, it is precious, and whoever ſo prays this prayer need ne<g ref="char:EOLhyphen"/>ver be aſhamed of it.</p>
+            <p>
+               <hi>Obj.</hi> Many finde by ex<g ref="char:EOLhyphen"/>perience, that their hearts are dull, dead, or very for<g ref="char:EOLhyphen"/>mall, as in the uſe of other formes, ſo of this alſo.</p>
+            <p>
+               <hi>Anſw.</hi> Concerning formes in generall, I ſay as before, that formes of Prayer are better than no prayer at all; and concerning this prayer, if our hearts be dead in the uſing of it, I dare ſay, the fault is in us,
+<pb n="127" facs="tcp:170297:80"/>
+not in the Prayer. It may be our hearts are dead at the reading of a Chapter; what, is the Scripture there<g ref="char:EOLhyphen"/>fore a dead letter? and muſt it therefore ceaſe in the Church? Oh, let us never accuſe Chriſts Pray<g ref="char:EOLhyphen"/>er, or Preaching, of dead<g ref="char:EOLhyphen"/>neſſe, to excuſe the ſinfull deadneſſe of our owne hearts. Our Lord Jeſus himſelfe prayed in the gar<g ref="char:EOLhyphen"/>den thrice, ſaying the ſame words, <hi>Mat.</hi> 26. and with as much Affection, and De<g ref="char:EOLhyphen"/>votion, and Life, the laſt time as the firſt. Let us goe and doe likewiſe. How is it that our Devotion flags not, that our hearts wan<g ref="char:EOLhyphen"/>der not in the joyning with one that prayes a conceived
+<pb n="128" facs="tcp:170297:81"/>
+prayer for a quarter, halfe an houre, or more; and yet cannot hold up, or keep cloſe to the duty, for a mo<g ref="char:EOLhyphen"/>ment or two, whilſt our Lords owne Prayer is re<g ref="char:EOLhyphen"/>hearſing? I ſhould rather thinke, that, if our hearts have not been duly affect<g ref="char:EOLhyphen"/>ed, or that there hath been any errour, whilſt the Mi<g ref="char:EOLhyphen"/>niſter hath been praying according to his ability, that the uſing of the Lords Prayer, and joyning in that perfect forme, with double, with ſeven-fold diligence, zeale, and holy affections in the cloſe of all, is very commendable, as both pi<g ref="char:EOLhyphen"/>ous and prudent: for in the generall Petitions of this Prayer, are contained
+<pb n="129" facs="tcp:170297:81"/>
+all the lawfull particulars, both for the Church, and every member of it, which were mentioned in the foregoing prayer. But here I muſt enter my Caveat: I would not be interpreted by what I have ſaid, for I doe in no wiſe meane it, God forbid, to poure cold water upon any fervent or zealous deſires, whilſt we joyne with others praying according to the gift, pre<g ref="char:EOLhyphen"/>tending thereby to reſerve all the heat and zeal of our ſoule for the offering up of the Lords Prayer; nor doe I meane, farre be it from me, to juſtifie any irreverent geſture, by-thoughts, or looſe and cold affections, during the time the Mini<g ref="char:EOLhyphen"/>ſter,
+<pb n="130" facs="tcp:170297:82"/>
+or other, is exerciſing his gift in conceived pray<g ref="char:EOLhyphen"/>er.</p>
+            <p>
+               <hi>Obj.</hi> But the Apoſtles in their writings, when they exhort to prayer, and give rules and directions about it, never recommend unto us the uſe of this prayer.</p>
+            <p>
+               <hi>Anſ.</hi> All that the Apoſtles did, or ſaid, is not written. Sure I am they have given no rule or direction againſt the uſing of this prayer: and, if it be true which ſome ſay, that the Evangeliſt <hi>Luke</hi> had the Goſpell he wrote from the Apoſtle <hi>Paul;</hi> it is ſome evidence, that the Apoſtle himſelfe was not againſt the uſing of this prayer; elſe, probably, he would not have told
+<pb n="131" facs="tcp:170297:82"/>
+him ſuch words as theſe, <hi>When ye pray, ſay, &amp;c.</hi> without adding ſome cau<g ref="char:EOLhyphen"/>tion or interpretation, to prevent miſtake. The Apo<g ref="char:EOLhyphen"/>ſtle <hi>Paul</hi> ſpeaks ſometimes concerning Baptiſme; but never treats of that forme of words, <hi>I baptize thee in the name of the Father, the Son, and the holy Ghoſt.</hi> What, may we not there<g ref="char:EOLhyphen"/>fore baptize in that forme of words? Surely we may, and <hi>Mat.</hi> 28.19. ſhall be our ſufficient warrant. A<g ref="char:EOLhyphen"/>gaine, the holy Apoſtles, <hi>Col.</hi> 3.16. <hi>Epheſ.</hi> 5.18, 19. <hi>James</hi> 5.13. give order for, and direction about ſinging of Pſalmes; but neither there, nor elſe<g ref="char:EOLhyphen"/>where tell us we are to ſing
+<pb n="132" facs="tcp:170297:83"/>
+               <hi>Davids</hi> Pſalmes, or what other Pſalmes we ſhould ſing: doth it thence fol<g ref="char:EOLhyphen"/>low, we may not ſing the Pſalmes of <hi>David,</hi> or other ſpirituall Songs recorded in the holy Scriptures? But put the caſe that ſome Chriſtians in thoſe dayes had ſaid to the Apoſtle <hi>Paul,</hi> teach us to ſing Pſalmes, or teach us Pſalms to ſing, as <hi>David</hi> the ſweet ſinger of <hi>Iſrael</hi> of old taught the people of God; and his anſwer to them had been in ſuch words as theſe, when ye ſing, ſing one of the Pſalmes of <hi>David</hi> (one of thoſe ſongs of <hi>Sion</hi>) or elſe he himſelf had compo<g ref="char:EOLhyphen"/>ſed a Pſalme, and added this Preface to it, or dire<g ref="char:EOLhyphen"/>ction
+<pb n="133" facs="tcp:170297:83"/>
+concerning it, when ye ſing, ſing after this man<g ref="char:EOLhyphen"/>ner; or, when ye ſing, ſing, &amp;c. Had not this been ſufficient to ground there<g ref="char:EOLhyphen"/>upon the lawfulneſſe of ſinging <hi>Davids</hi> Pſalmes, or, that particular Pſalmes ſo compoſed and ſubjoyned by the Apoſtle? I believe it had.</p>
+            <p>And now if any ask, How often we ſhould pray the Lords prayer? To this my Anſwer is, That the holy Ghoſt in the Scriptures hath left this undetermi<g ref="char:EOLhyphen"/>ned; as alſo, how oft we are to read the ſixt Cha<g ref="char:EOLhyphen"/>pter of the Goſpel written by the Evangeliſt <hi>Mathew,</hi> and this eleventh Chapter of the Goſpel according to
+<pb n="134" facs="tcp:170297:84"/>
+the Evangeliſt <hi>Luke,</hi> or any other particular Chapter in the Scriptures; as alſo, it is undetermined, how oft we are to ſing the 92. Pſal. entitled a Pſalme for the Saboth day, or any other Pſalme. I find theſe things left to Chriſtian prudence; and ſo I ſhall ſtill leave them; not being willing to binde mens conſciences, wherein God hath left us free; as for this, I know of no Commandement from the Lord. But herein I give my advice, deſiring and praying for that mercy from the Lord, that in this, and all other things, I may be found faithfull. If as often as Gods people meet together to worſhip God
+<pb n="135" facs="tcp:170297:84"/>
+publiquely, and eſpecially upon the Lords day, this prayer alſo might be offe<g ref="char:EOLhyphen"/>red up to God, being a Sacrifice and Incenſe which our high Prieſt hath conſe<g ref="char:EOLhyphen"/>crated to God and his Fa<g ref="char:EOLhyphen"/>ther, and to our God and our Father; I ſhould think it might be a good ſupple<g ref="char:EOLhyphen"/>ment of the defects, and ſome emendation of the errors in our prayers. E<g ref="char:EOLhyphen"/>ſpecially in ſuch dayes of diviſion as ours are; where<g ref="char:EOLhyphen"/>in good men are ſplit into ſo many ſeveral parties and opinions, in matters of Church and State, that whilſt ſome holy men in their hearts ſay <hi>Amen</hi> to ſome prayers (put up in their name by the Mini<g ref="char:EOLhyphen"/>ſters)
+<pb n="136" facs="tcp:170297:85"/>
+others, as holy as they, in their hearts ſay God forbid, or, that be far from us. This is a pub<g ref="char:EOLhyphen"/>lique Prayer, and no pri<g ref="char:EOLhyphen"/>vate Chriſtian but ought to ſay <hi>Amen</hi> unto it. However we are divided in more particular Requeſts, wee ought all to concenter and agree in theſe generall ne<g ref="char:EOLhyphen"/>eſſary things herein pray<g ref="char:EOLhyphen"/>ed for. Foraſmuch there<g ref="char:EOLhyphen"/>fore, as when we come to<g ref="char:EOLhyphen"/>gether in the Church to pray, there are too too often diviſions amongſt us, though we are together in one place, yet not with one heart; and becauſe the promiſe is eſpecially to two or three that agree toge<g ref="char:EOLhyphen"/>ther, to ask any thing; and
+<pb n="137" facs="tcp:170297:85"/>
+to pray with divided hearts, this is, in a ſenſe, not to pray, this is, not to ſeek the Lord in due order; to reforme, in ſome meaſure at leaſt, theſe abuſes in prayer, I ſhould recommend to all the Churches of Chriſt, and to every Chriſtian in them, this one prayer, the Lords prayer, to which Chriſti<g ref="char:EOLhyphen"/>ans of all Nations, Tongues and Languages, may agree to ſay <hi>Amen.</hi> For I have received of the Lord, that which I delivered unto you; how that the Lord Jeſus, the ſame time, when he was by one of his Diſci<g ref="char:EOLhyphen"/>ples in effect asked this queſtion, how we ſhould pray, ſaying, <hi>Lord teach us
+<pb n="138" facs="tcp:170297:86"/>
+to pray as John alſo taught his Diſciples;</hi> he ſaid, <hi>When ye pray, ſay, &amp;c..</hi>
+            </p>
+            <p>
+               <hi>Obj.</hi> Are theſe things ſo? why then do you not juſti<g ref="char:EOLhyphen"/>fie preſcribed, and impoſed Liturgies, or forms of Pray<g ref="char:EOLhyphen"/>er?</p>
+            <p>
+               <hi>Anſw.</hi> I ſhall not ſo far lanch forth into that con<g ref="char:EOLhyphen"/>troverſie now, as either to commend, or condemne them: yet this I ſay, that this was made by an infal<g ref="char:EOLhyphen"/>lible Spirit. And againe, concerning this, our Savi<g ref="char:EOLhyphen"/>our Chriſt hath ſaid that which he never ſaid concer<g ref="char:EOLhyphen"/>ning any other; <hi>After this manner pray ye;</hi> or, <hi>when ye pray, ſay, Our Father, &amp;c.</hi>
+            </p>
+            <p>I ſhall conclude all with
+<pb n="139" facs="tcp:170297:86"/>
+ſome uſe of the Doctrine.</p>
+            <p n="1">1. And firſt, As the An<g ref="char:EOLhyphen"/>gel ſaid to <hi>Joſeph</hi> concer<g ref="char:EOLhyphen"/>ning the <hi>bleſſed Virgin Ma<g ref="char:EOLhyphen"/>ry,</hi> whilſt he thought of putting her away privily, <hi>Feare not</hi> Joſeph, <hi>thou ſon of</hi> David, <hi>to take unto thee</hi> Mary, <hi>thy espouſed wife, for that is conceived in her is of the holy Ghoſt.</hi> So ſay I to all thoſe juſt ones, who have had thoughts of put<g ref="char:EOLhyphen"/>ting away this prayer pri<g ref="char:EOLhyphen"/>vily; feare not to take un<g ref="char:EOLhyphen"/>to you this prayer, which you have loved, and as it were eſpouſed, for that which is conceived in it is of the holy Ghoſt.</p>
+            <p>But be not ye as the Pa<g ref="char:EOLhyphen"/>piſts are, who think to
+<pb n="140" facs="tcp:170297:87"/>
+make ſatisfaction to God, and merit at his hand, by the often repetition of their <hi>Pater Noſter, &amp;c.</hi> although without faith, without un<g ref="char:EOLhyphen"/>derſtanding, without holy affections.</p>
+            <p>And againe, doe not ye ſlight other prayers, made according to this modell or patterne, by them who have the ſpirit or gift of prayer; and above all things, my brethren, be<g ref="char:EOLhyphen"/>ware of blaſpheming the ſpirit of prayer, or pray<g ref="char:EOLhyphen"/>ing by the Spirit, accoun<g ref="char:EOLhyphen"/>ting and calling it vaine babling.</p>
+            <p n="2">2. And you who have the gift of prayer, ſo that ye have no need that any
+<pb n="141" facs="tcp:170297:87"/>
+one teach you, ſo that ye can goe without crut<g ref="char:EOLhyphen"/>ches, and ſwimme with<g ref="char:EOLhyphen"/>out bladders; I meane, pray without uſing formes, made by other men; yet be not ye therefore lifted up, or puffed up. And againe, be circumſpect, and never preſume to utter any thing before the Lord in publique, which will not hold weight, if weighed in the balance of the Sanctu<g ref="char:EOLhyphen"/>ary. So ſpeak to God, as conſidering that men alſo heare you. And, if ever you ſhould have any thing amiſſe in your prayers, either for matter, or for manner of expreſſion; lay not this at the doore of the
+<pb n="142" facs="tcp:170297:88"/>
+Spirit; but rather father it thy ſelfe, own it, though with ſorrow, as a brat of thy owne naughty heart, or extravagant fancy. And farther, having ſuch a gol<g ref="char:EOLhyphen"/>den talent as the gift of prayer, labour to improve for thy Maſters, and the Churches, and thy owne advantage. And if yee would be mighty in prayer, be much in the ſtudy of the Scriptures, in prayer and meditation. The beſt way to the throne of Grace, lyes by the Oracles of God: And neglect not to eye and follow the cloud of Incenſe, that is, the prayers of Saints in Scripture, which aſcend to heaven, when
+<pb n="143" facs="tcp:170297:88"/>
+you would goe to God in prayer: And you who have the gift of prayer, pray for the Grace alſo; and that more earneſtly, becauſe one dramme of Grace is worth many ta<g ref="char:EOLhyphen"/>lents of Gifts.</p>
+            <p n="3">3. You who have not the gift of Prayer, ſo as to compoſe a Prayer, but have need that ſome one teach you; To the Lords prayer, to the prayers of <hi>David, Hezekiah, Daniel,</hi> the Apoſtle <hi>Paul,</hi> &amp;c. in Scripture; and to other formes of prayer framed by other men according to Scripture-patternes, and after this manner pray ye, <hi>&amp;c.</hi> As to formes of pray<g ref="char:EOLhyphen"/>er,
+<pb n="144" facs="tcp:170297:89"/>
+compoſed by men of a fallible ſpirit; uſe them as learners to ſwim uſe blad<g ref="char:EOLhyphen"/>ders, ſo as they may be able at length to ſwimme without them; uſe to goe to prayer with them, as children uſe firſt to go by a bench, or forme, ſo that after a while, you may, as they, go without them; uſe them not as old men uſe ſtaves, or crutches, ne<g ref="char:EOLhyphen"/>ver likely to lay them a<g ref="char:EOLhyphen"/>ſide.</p>
+            <p n="4">4. As for thoſe who pray not, alone, and with their families, (if they be Maſters of families) pre<g ref="char:EOLhyphen"/>tending they know not how to pray; this Doctrine renders them in excuſable,
+<pb n="145" facs="tcp:170297:89"/>
+they muſt needes become ſilent before God. What can they ſay for them<g ref="char:EOLhyphen"/>ſelves? If they ſay, they cannot go, behold God al<g ref="char:EOLhyphen"/>lows them crutches to help their weakneſſe. Brethren, if you have but a good will to come to draw nigh to God in prayer, behold Jeſus Chriſt ſtretches out his hand to direct you; he hath left you this prayer, as legs to go withall to his Father; you may be wel<g ref="char:EOLhyphen"/>come to God and Chriſt. If you come but born upon the ſhoulders of prayers made by others, if you cannot come alone of your ſelves: goe therefore to others to teach you to
+<pb n="146" facs="tcp:170297:90"/>
+pray, as this Diſciple did to Chriſt; and let all Mi<g ref="char:EOLhyphen"/>niſters, Parents, and Ma<g ref="char:EOLhyphen"/>ſters, imitate our Lord Je<g ref="char:EOLhyphen"/>ſus Chriſt in the text, and his forerunner; teaching their people, children, ſer<g ref="char:EOLhyphen"/>vants to pray, as <hi>John</hi> and Chriſt taught their Diſci<g ref="char:EOLhyphen"/>ples.</p>
+            <p n="5">5. Laſt of all, let us that uſe the Lords prayer ordi<g ref="char:EOLhyphen"/>narily, make it the patterne of our practiſe, as well as of our prayers. Let us doe as we ſay, as we pray. Let us endeavour, that Gods name may be hallowed, or glorified, by us and others, that the Kingdome of ſin (which is indeed the Devils Kingdome) may be thrown
+<pb n="147" facs="tcp:170297:90"/>
+down to the ground, down to the nethermoſt Hell; that our Lord Jeſus by his good Word and holy Spi<g ref="char:EOLhyphen"/>rit, may ſet up his throne in our hearts, and in the world, farre above the thrones of all the Kings of the earth, the Prince of the aire, and all the powers of darkneſſe. Endeavour we our ſelves, and perſwade we, and help we others to do the will of God on earth readily, cheerfully, conſtantly, as the Saints and Angels doe it in hea<g ref="char:EOLhyphen"/>ven. And we that every day pray for daily Bread, let us take ſome honeſt calling and courſe to get it. <hi>Operantibus dabitur:</hi>
+               <pb n="148" facs="tcp:170297:91"/>
+your labour ſhall not be in vaine: And content we our ſelves ſo with daily Bread, with the portion for the day, as to take or ad<g ref="char:EOLhyphen"/>mit no carking, or diſtra<g ref="char:EOLhyphen"/>cting thoughts for to mor<g ref="char:EOLhyphen"/>row. Let us (who pray God to forgive us our offences againſt him, as we forgive our brethren their offences againſt us) let us be ſure that we do not play the Hypocrites, or dally with God, leſt our prayer be turned into ſin, leſt our prayer to God prove like the petition of <hi>Adonijah,</hi> for <hi>Abiſhag</hi> the <hi>Shunamite</hi> to be his wife; leſt it coſt us our lives, leſt God anſwer and ſay,
+<pb n="149" facs="tcp:170297:91"/>
+you have ſpokn this a<g ref="char:EOLhyphen"/>gainſt your owne lives, againſt your owne ſoules; you will not forgive your brethren Mites, and there<g ref="char:EOLhyphen"/>fore I will never forgive you Millions of talents. Let not us who pray to God, not to lead us into temptation, goe preſently and tempt the very De<g ref="char:EOLhyphen"/>vill, the Tempter, to tempt us, by throwing our ſelves upon occaſions of ſinning. Whileſt we pray, deliver us from evill, from all evill of ſinne and puniſh<g ref="char:EOLhyphen"/>ment, and particularly, from that evill one the Devill, ſee that we run not headlong into any ſin (as a horſe ruſheth into the
+<pb n="150" facs="tcp:170297:92"/>
+battaile) knowing that in ſo doing, we caſt our ſelves into the Lions den, yea, into the mouth of the roaring Lion, Devill, and as much as in us lieth, in<g ref="char:EOLhyphen"/>to hell it ſelfe, that lake that burneth with fire and brimſtone. And let us, that fill our mouthes with Ar<g ref="char:EOLhyphen"/>guments, to plead and wreſtle with God as Prin<g ref="char:EOLhyphen"/>ces in prayer, from his Kingdome, Power, and Glory, <hi>i. e.</hi> his ability to help us; Let us, with our very hearts, and lives, as well as with our lips, praiſe him with the ſong of <hi>Mo<g ref="char:EOLhyphen"/>ſes,</hi>
+               <note place="margin">Rev. 15.3, 4.</note> and of the Lamb; a<g ref="char:EOLhyphen"/>ſcribing to him alwayes the Kingdome, the Power, and
+<pb n="151" facs="tcp:170297:92"/>
+Glory, for ever and ever: Thus ſealing up our Pray<g ref="char:EOLhyphen"/>er with a reall AMEN.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="addendum">
+            <pb facs="tcp:170297:93"/>
+            <pb facs="tcp:170297:93" rendition="simple:additions"/>
+            <head>Adde this after the Title.</head>
+            <p>Qu. <hi>How is the Lords Prayer to be uſed?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> The Lords Pray<g ref="char:EOLhyphen"/>er is not onely for direction, as a pattern according to which we are to make other Prayers,<note place="margin">Mat. 6.9. with Luke 11.2.</note> but may al<g ref="char:EOLhyphen"/>ſo be uſed as a Pray<g ref="char:EOLhyphen"/>er, ſo that it be done with underſtanding, faith, reverence, and other graces neceſſa<g ref="char:EOLhyphen"/>ry to the right per<g ref="char:EOLhyphen"/>formance of the duty of Prayer.</p>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:170297:94"/>
+            <pb facs="tcp:170297:94" rendition="simple:additions"/>
+            <head>ERRATA.</head>
+            <p>
+               <hi>PAge 47. line 17. inſtead of thoſe words,</hi> Do not open your doores to be a ran<g ref="char:EOLhyphen"/>devouz for Devils, a ha<g ref="char:EOLhyphen"/>bitation for <hi>Ziim</hi> and <hi>Iim,</hi> and every unclean spirit, <hi>read thus.</hi> Do not open your doores to be a randevouz for Devils, to be made like falne <hi>Babylon,</hi> Revel. <hi>18.2.</hi> the habitation of Devils, and the hold of every foule Spirit, and a cage of every uncleane and hatefull Bird.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
